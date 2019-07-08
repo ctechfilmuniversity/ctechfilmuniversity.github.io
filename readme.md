@@ -1,3 +1,3 @@
 Github pages + Jekyll ctechfilmuni webpage prototype
 
-https://mmistakes.github.io/minimal-mistakes/
+Minimal mistake theme for Jekyll: https://mmistakes.github.io/minimal-mistakes/
