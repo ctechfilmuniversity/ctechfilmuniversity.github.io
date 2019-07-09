@@ -24,7 +24,7 @@ url                      : "https://ctechfilmuniversity.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/ctechfilmuniversity"
 teaser                   :  "/assets/images/fall-back-image.png"
-logo                     : "/assets/images/ctech-logo.png"
+logo                     : "/assets/images/filmuni-logo.png"
 masthead_title           : "Creative Technologies"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Creative Technologies"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/fall-back-image.jpg"
   bio              : "I am an amazing major."
   location         : "Berlin"
   email            :
