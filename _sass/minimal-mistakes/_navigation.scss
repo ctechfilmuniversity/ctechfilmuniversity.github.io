@@ -13,6 +13,12 @@ nav {
   width: 100%; 
 }
 
+.masthead {
+  position: fixed;
+  top: 0; 
+  width: 100%; 
+}
+
 .breadcrumbs {
   @include clearfix;
   margin: 0 auto;
