@@ -1,3 +1,3 @@
-Github pages + Jekyll ctechfilmuni webpage prototype
-
-Minimal mistake theme for Jekyll: https://mmistakes.github.io/minimal-mistakes/
+- Github pages + Jekyll ctechfilmuni webpage prototype
+- Minimal mistake theme for Jekyll: https://mmistakes.github.io/minimal-mistakes/
+- Jekyll uses Liquid language, documentation: https://shopify.github.io/liquid/basics/introduction/
