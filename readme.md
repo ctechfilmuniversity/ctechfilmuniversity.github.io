@@ -5,3 +5,8 @@
 
 - Jekyll uses Liquid language, documentation: https://shopify.github.io/liquid/basics/introduction/
 - sccs is CSS tool made for jekyll
+
+
+Getting started:
+- clone repo
+- run ```bundle exec jekyll serve```
