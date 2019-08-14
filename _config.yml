@@ -17,6 +17,7 @@ sass:
 title:		           "CTech works"
 description:	       "a webpage to share projects made "
 author:              "CTech students"
+logo:                /assets/img/ctech-logo.png
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
