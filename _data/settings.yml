@@ -7,11 +7,11 @@ disqus:
 google-ID: '' # 'UA-112060364-2'
 
 menu:
-- {name: '1st Semester', folder: 'pages', file: 'facts.html'}
-- {name: '2nd Semester', folder: 'pages', file: 'resources.html'}
-- {name: '3rd Semester', folder: 'pages', file: 'sample-posts.html'}
-- {name: '4th Semester', folder: 'pages', file: 'documentation.html'}
-- {name: 'Other', folder: 'pages', file: 'about.html'}
+- {name: '1st Semester', folder: 'pages', file: '1st-Semester.html'}
+- {name: '2nd Semester', folder: 'pages', file: '2nd-Semester.html'}
+- {name: '3rd Semester', folder: 'pages', file: '3rd-Semester.html'}
+- {name: '4th Semester', folder: 'pages', file: '4th-Semester.html'}
+- {name: 'Other', folder: 'pages', file: 'Other.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
