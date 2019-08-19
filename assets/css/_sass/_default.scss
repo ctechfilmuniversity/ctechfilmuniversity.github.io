@@ -1,6 +1,19 @@
 /*
   Site container
 */
+#ctech-box{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#ctech-image-text {
+  position: absolute;  
+  bottom: 8px;
+  left: 16px;
+  color: white;
+}
+
 
 .container {
   width: $container-width;
