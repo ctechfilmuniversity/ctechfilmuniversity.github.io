@@ -27,6 +27,13 @@
   margin: 0;
 }
 
+.courses {
+  border-top: 70px solid transparent;
+    margin-top: -50px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
 
 .container {
   width: $container-width;
