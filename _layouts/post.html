@@ -25,10 +25,19 @@ layout: default
     {% endif %}
   </span>
 
-  {% if page.image %}
+  {% if page.cover-image %}
     <div class="featured-image">
-      <img src="{{ site.github.url }}/assets/img/test_pics/{{ page.image }}">
+      <img src="{{ site.github.url }}/assets/img/test_pics/{{ page.cover-image }}" alt="{{ page.cover-image-title }}">
     </div>
+  {% endif %}
+
+  {% if page.gallery %}
+  <ul class="photo-gallery">
+    {% for image in page.gallery %}
+      <!--<li> <img src="{{ site.github.url }}/assets/img/test_pics/{{ image.path }}" alt="{{ image.title }}"></li>-->
+      <li style="background-image: url({{ site.url }}{{ site.baseurl }}/assets/img/test_pics/{{ image.path }})"> </li>
+    {% endfor %}
+  </ul>
   {% endif %}
 
   <article>
@@ -40,7 +49,6 @@ layout: default
     <div class="sharing-icons">
       <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.github.url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <a href="https://plus.google.com/share?url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
     </div>
   </div>
 
@@ -56,8 +64,9 @@ layout: default
               <h3>
                 <a href="{{ site.github.url }}{{ mypost.url }}">
                   <div class="related-thumbnail">
-                    {% if mypost.image %}
-                      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/test_pics/{{ mypost.image }}">
+                    {% if mypost.cover-image %}
+                    <!--  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.date }}/{{ mypost.cover-image }}" -->
+                      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/test_pics/{{ mypost.cover-image }}" alt="{{ page.cover-image-title }}">
                     {% endif %}
                   </div>
                   <div class="related-title">
