@@ -12,12 +12,19 @@ tags: [Creative Coding I, CCI, ws_2019_2020, final project]
 
 #TODO 
 #add header image here 
-image: C.gif
+cover-image: C.gif
+cover-image-title: Pixels
+
+
+#optional: more images
+gallery:
+   - path: B.png
+     title: This is a pixel.
+   - path: A.png
+     title: This is a pack of pixels. 
 ---
 
 <!-- #TODO -->
-**Submission date**: 2019-08-20
-
 
 This is a cool project about pixels and so on. In digital imaging, a pixel, pel, or picture element is a physical point in a raster image, or the smallest addressable element in an all points addressable display device; so it is the smallest controllable element of a picture represented on the screen.
 
