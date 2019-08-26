@@ -7,7 +7,7 @@ title: "My Project"
 author: "My Name"
 
 #Recommendation: categories and tags are prefilled out by somebody
-categories: #my module: CCI, CCII, TBAG, ARI, ARII, AM, MT
+category: #my module: CCI, CCII, TBAG, ARI, ARII, AM, MT
 tags: [module,etc,pp]
 
 #TODO 

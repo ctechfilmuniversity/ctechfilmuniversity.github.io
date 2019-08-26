@@ -7,7 +7,7 @@ title: 1st Semester
 
 <h2 id="ARI" class="courses">Acadamic Readings I</h2>
 
-{% for post in site.categories.ARI %}
+{% for post in site.category.ARI %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.cover-image %}style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"{% endif %}>
       <h2><span>{{ post.title }}</span></h2>
@@ -17,7 +17,7 @@ title: 1st Semester
 
 <h2 id="CCI" class="courses">Creative Coding I</h2>
 
-{% for post in site.categories.CCI %}
+{% for post in site.category.CCI %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.cover-image %}style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"{% endif %}>
       <h2><span>{{ post.title }}</span></h2>
@@ -27,7 +27,7 @@ title: 1st Semester
 
 <h2 id="TBAG" class="courses">Theoretical Backgrounds for Audio and Graphics</h2>
 
-{% for post in site.categories.TBAG %}
+{% for post in site.category.TBAG %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.cover-image %}style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"{% endif %}>
       <h2><span>{{ post.title }}</span></h2>
@@ -38,7 +38,7 @@ title: 1st Semester
 
 <!---
 
-{% for post in site.categories.facts %}
+{% for post in site.category.facts %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
       <h2><span>{{ post.title }}</span></h2>
