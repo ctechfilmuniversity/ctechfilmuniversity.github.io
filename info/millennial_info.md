@@ -16,7 +16,7 @@ Millennial is a minimalist Jekyll theme for running a simple, clean, content-foc
 
 * Optimized for search engines.
 
-* LaTeX support through [MathJax](https://www.mathjax.org/).
+*  support through [MathJax](https://www.mathjax.org/).
 
 ## Table of Contents
 
@@ -91,7 +91,7 @@ Millennial/
 |  |  └── main.scss            # Main SCSS file
 |  |  └── syntax.css           # Style sheet for code syntax highlighting
 |  └── img                     # Images go here
-├── pages                      # Category pages
+├── pages                      # categories pages
 ├── _config.yml                # Site build settings
 ├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins
 ├── index.md                   # Home page

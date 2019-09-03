@@ -7,7 +7,7 @@ title: "The marvellous pixel story"
 author: "Jane Doe"
 
 #Recommendation: categories and tags are prefilled out by somebody
-category: CCI
+categories: CCI
 tags: [Creative Coding I, CCI, ws_2019_2020, final project]
 
 #TODO 
