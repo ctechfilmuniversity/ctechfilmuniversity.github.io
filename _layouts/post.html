@@ -27,7 +27,7 @@ layout: default
 
   {% if page.cover-image %}
     <div class="featured-image">
-      <img src="{{ site.github.url }}/assets/img/test_pics/{{ page.cover-image }}" alt="{{ page.cover-image-title }}">
+      <img src="{{ site.github.url }}{{ page.main-path }}{{ page.cover-image }}" alt="{{ page.cover-image-title }}">
     </div>
   {% endif %}
 
