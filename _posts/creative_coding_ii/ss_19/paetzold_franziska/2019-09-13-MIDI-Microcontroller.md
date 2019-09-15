@@ -8,7 +8,7 @@ tags: [Creative Coding II, CCII]
 cover-image: the_controler.png
 cover-image-title: the controller
 
-main-path: \creative_coding_ii\ss_19\paetzold_franziska\
+main-path: /creative_coding_ii/ss_19/paetzold_franziska/
 
 [//]: #main-path: ... 
 
