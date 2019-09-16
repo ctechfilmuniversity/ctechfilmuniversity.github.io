@@ -34,7 +34,6 @@ layout: default
   {% if page.gallery %}
   <ul class="photo-gallery">
     {% for image in page.gallery %}
-      <!--<li> <img src="{{ site.github.url }}/assets/img/test_pics/{{ image.path }}" alt="{{ image.title }}"></li>-->
       <li style="background-image: url({{ site.url }}{{ site.baseurl }}/assets/img/test_pics/{{ image.path }})"> </li>
     {% endfor %}
   </ul>
