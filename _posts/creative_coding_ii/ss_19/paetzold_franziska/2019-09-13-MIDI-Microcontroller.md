@@ -5,7 +5,7 @@ author: "Franziska Pätzold"
 categories: CCI
 tags: [Creative Coding II, CCII]
 
-cover-image-path: /_posts/creative_coding_ii/ss_19/paetzold_franziska/the_controler.png
+cover-image-path: /_posts/creative_coding_ii/ss_19/paetzold_franziska/the_controller.png
 cover-image-title: the controller
 
 main-path: /_posts/creative_coding_ii/ss_19/paetzold_franziska/
