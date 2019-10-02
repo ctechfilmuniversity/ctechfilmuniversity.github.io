@@ -3,9 +3,11 @@ layout: page
 title: Master Theses
 ---
 
-<a href="#OP">Orientation Projects</a> | <a href="#E">Electives</a>
+<a href="#2019">2019</a> | <a href="#2020">2020</a>
 
-{% for post in site.categories.OP %}
+<h2 id="2020" class="courses">2020</h2>
+
+{% for post in site.categories.thesis_2020 %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" 
       {% if post.cover-image %}
@@ -19,8 +21,9 @@ title: Master Theses
   </a>
 {% endfor %}
 
+<h2 id="2019" class="courses">2019</h2>
 
-{% for post in site.categories.TBAG %}
+{% for post in site.categories.thesis_2019 %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" 
       {% if post.cover-image %}

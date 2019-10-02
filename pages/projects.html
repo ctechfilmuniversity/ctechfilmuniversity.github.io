@@ -2,3 +2,37 @@
 layout: page
 title: Individual Projects
 ---
+
+<a href="#OP">Orientation Projects</a> | <a href="#E">Electives</a>
+
+<h2 id="CTECHII" class="courses">Orientation Projects</h2>
+
+{% for post in site.categories.OP %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+<h2 id="E" class="courses">Electives</h2>
+
+{% for post in site.categories.elective %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}
