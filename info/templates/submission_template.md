@@ -1,27 +1,17 @@
----
-#Do NOT touch
-layout: post
+Name:
 
-#TODO
-title: "My Project"
-author: "My Name"
+Title: 
 
-#Recommendation: categories and tags are prefilled out by somebody
-categories: #my module: CCI, CCII, TBAG, ARI, ARII, AM, MT
-tags: [module,etc,pp]
+Cover image: 
 
-#TODO 
-#add header image here 
-cover-image: my-img.jpg 
-cover-image-title: Cool pixels. 
-#optional: more images
-gallery:
-   - path: other.png
-     title: This is a pixel.
-   - path: somethingelse.gif
-     title: This is a pack of pixels. 
----
+Gallery images:
 
-<!-- #TODO 
-Your text: 
--->
+Tags: 
+
+Abstract: 
+
+Project description:
+
+Implementation:
+
+Lessons learned:

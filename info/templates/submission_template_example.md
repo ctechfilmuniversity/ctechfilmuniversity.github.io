@@ -1,37 +1,34 @@
----
-#Do NOT touch
-layout: post
+[//]: # all sections are mendatory undless they are marked with optional
+[//]: # add the cover image and the gallery images to folder where your md layes (no subfolder!)
 
-#TODO
-title: "The marvellous pixel story"
-author: "Jane Doe"
+Name: John Doe
 
-#Recommendation: categories and tags are prefilled out by somebody
-categories: CCI
-tags: [Creative Coding I, CCI, ws_2019_2020, final project]
+Title: A cool project
 
-#TODO 
-#add header image here 
-cover-image: C.gif
-cover-image-title: Pixels
+[//]: # please use png, jpg or gif
+Cover image: pixel.png
 
+[//]: # optional
+Gallery images:
+  - a.jpg
+  - b.gif
+  - c.png
 
-#optional: more images
-gallery:
-   - path: B.png
-     title: This is a pixel.
-   - path: A.png
-     title: This is a pack of pixels. 
----
+[//]: # optional
+Tags:
+  - Pixel
+  - OpenGL
+  - Shader
 
-<!-- #TODO -->
+Abstract: 
+This is a short summary of my cool project.
 
-This is a cool project about pixels and so on. In digital imaging, a pixel, pel, or picture element is a physical point in a raster image, or the smallest addressable element in an all points addressable display device; so it is the smallest controllable element of a picture represented on the screen.
+Project description:
+Here I explain what my projecct is about. 
+[//]: # HINT: If vou would like to add "technical images" here, like systemdiagrams, a mathematical drawing, that should not be displayed in the gallery, do the following: 1. upload your picture online (for example: go to GitHub, got to any repo, open a new issue, drag and drop your file, copy the link), 2. copy the link, 3. Include it at the point of the text, where you would like to have it. Please do not include the image file to your directory if it should not be shown in the gallery. 
 
-Each pixel is a sample of an original image; more samples typically provide more accurate representations of the original. The intensity of each pixel is variable. In color imaging systems, a color is typically represented by three or four component intensities such as red, green, and blue, or cyan, magenta, yellow, and black.
+Implementation:
+Step by step instruction how I implemented my project. Also technical details and used technology.  
 
-In some contexts (such as descriptions of camera sensors), pixel refers to a single scalar element of a multi-component representation (called a photosite in the camera sensor context, although sensel is sometimes used), while in yet other contexts it may refer to the set of component intensities for a spatial position.
-
-The word pixel is a portmanteau of pix (from "pictures", shortened to "pics") and el (for "element"); similar formations with 'el' include the words voxel and texel.
-
-_Source_: https://en.wikipedia.org/wiki/Pixel
+Lessons learned:
+I learned so much about 
