@@ -15,7 +15,7 @@ making music through Five Dimensions of Touch, can be a creativity trigger. To o
 Microcontroller is a tool that produces sounds without the need to touch any hardware, just by moving a hand in the air around
 the device. It can be build by combining an Arduino board, some wires and a couple of ultrasonic sensors.
 
-Project description:
+<h2> Project description </h2>
 A MIDI Microcontroller prototype can be made by hand by combining ultrasonic sensors with an Arduino board and having the Arduino connected to a PC. The controller is played by an obstacle in front of the ultrasonic sensors adjusted to the range from one up to 50cm. The user can decide if they want to use one hand, both hands or any other own chosen medium to control the MIDI device. Value changes are recognized in two dimensions. The basis to create a sound are five different modes. They interpret the movements in the trigger zone as a single tone, multiple individual tones or linear interpolation between pitches. 
 
 ![usecase](https://user-images.githubusercontent.com/22836416/66075508-10049b00-e55c-11e9-9dde-f1b8d1917a24.jpg)
