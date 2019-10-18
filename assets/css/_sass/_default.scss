@@ -13,10 +13,6 @@
   max-width: none;
 }
 
-#ctech-image-text {
-  color: white;
-
-}
 
 @media only screen and (min-width: 50em)
 {
@@ -50,6 +46,7 @@
 }
 
 #ctech-image-text {
+  color: white;
   padding-right: 0;
   padding-left: 0;
   position: absolute;
@@ -61,7 +58,6 @@
   font-family: "Futura Book";
   font-size: 1.5rem;
   font-weight: normal;
-  color: #1d1d1b;
   text-transform: uppercase;
 }
 
