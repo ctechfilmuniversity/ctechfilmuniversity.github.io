@@ -2,18 +2,106 @@
 layout: page
 title: Lectures
 ---
-{% for category in site.categories %}
-  {% for post in category %}
-    <a href="{{ site.github.url }}{{ post.url }}">
-      <div class="featured-posts" 
-        {% if post.cover-image %}
-          style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
-        {% else  %}
-          style="background-image:url({{ site.github.url }} {{ site.header-image }})"
-        {% endif %}
-      >
-        <h2><span>{{ post.title }}</span></h2>
-      </div>
-    </a>
-  {% endfor %}
+
+
+
+
+{% for post in site.categories.AM %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.categories.CCI %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.categories.CCII %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.categories.TBAG %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.categories.CTECHI %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+
+{% for post in site.categories.CTECHII %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+
+{% for post in site.categories.PGS %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
 {% endfor %}
