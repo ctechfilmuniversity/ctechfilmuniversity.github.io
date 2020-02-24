@@ -3,10 +3,6 @@ layout: page
 title: Individual Projects
 ---
 
-<a href="#OP">Orientation Projects</a> | <a href="#E">Electives</a>
-
-<h2 id="CTECHII" class="courses">Orientation Projects</h2>
-
 {% for post in site.categories.OP %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" 
@@ -20,8 +16,6 @@ title: Individual Projects
     </div>
   </a>
 {% endfor %}
-
-<h2 id="E" class="courses">Electives</h2>
 
 {% for post in site.categories.elective %}
   <a href="{{ site.github.url }}{{ post.url }}">
