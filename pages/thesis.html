@@ -3,36 +3,18 @@ layout: page
 title: Master Theses
 ---
 
-<a href="#2019">2019</a> | <a href="#2020">2020</a>
-
-<h2 id="2020" class="courses">2020</h2>
-
-{% for post in site.categories.thesis_2020 %}
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" 
-      {% if post.cover-image %}
-        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
-      {% else  %}
-        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
-      {% endif %}
-    >
-      <h2><span>{{ post.title }}</span></h2>
-    </div>
-  </a>
-{% endfor %}
-
-<h2 id="2019" class="courses">2019</h2>
-
-{% for post in site.categories.thesis_2019 %}
-  <a href="{{ site.github.url }}{{ post.url }}">
-    <div class="featured-posts" 
-      {% if post.cover-image %}
-        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
-      {% else  %}
-        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
-      {% endif %}
-    >
-      <h2><span>{{ post.title }}</span></h2>
-    </div>
-  </a>
+{% for cat in site.categories %}
+  {% for post in cat %}
+    <a href="{{ site.github.url }}{{ post.url }}">
+      <div class="featured-posts" 
+        {% if post.cover-image %}
+          style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+        {% else  %}
+          style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+        {% endif %}
+      >
+        <h2><span>{{ post.title }}</span></h2>
+      </div>
+    </a>
+  {% endfor %}
 {% endfor %}
