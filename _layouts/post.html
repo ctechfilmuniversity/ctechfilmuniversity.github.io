@@ -53,12 +53,12 @@ layout: default
 
   <div class="related">
     <h2>Tags</h2>
-    <span>
+    <div class="tags">
       {% for tag in page.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
+        <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>
       {% endfor %}
-    </span>
+    </div>
     {%- comment -%} <ul class="tags">
       {% for tag in page.tags %}
         <li>{{ tag }}</li>

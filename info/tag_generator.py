@@ -15,7 +15,6 @@ post_dir = '_posts/projects/'
 tag_dir = 'tag/'
 
 filenames = glob.glob(post_dir + '*.md', recursive=True)
-print(filenames)
 
 total_tags = []
 for filename in filenames:
