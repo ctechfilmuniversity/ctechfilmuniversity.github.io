@@ -52,6 +52,19 @@ layout: default
   </div>
 
   <div class="related">
+    <h2>Tags</h2>
+    <span>
+      {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>&nbsp;
+      {% endfor %}
+    </span>
+    {%- comment -%} <ul class="tags">
+      {% for tag in page.tags %}
+        <li>{{ tag }}</li>
+      {% endfor %}
+    </ul> {%- endcomment -%}
+
     <h2>{{ site.data.settings.related_posts }}</h2>
     {% assign listed_posts_urls = page.url | split: ' ' %}
     <ul class="related-posts">

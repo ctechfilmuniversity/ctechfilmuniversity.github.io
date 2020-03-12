@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Individual Projects
+title: Projects
 ---
 
-{% for post in site.categories.OP %}
+{% for post in site.categories.Projects %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" 
       {% if post.cover-image %}
@@ -17,6 +17,12 @@ title: Individual Projects
   </a>
 {% endfor %}
 
+{% include all_tags.html %}
+
+ {%- comment -%} <li><a href="{{ post.url }}">{{ post.title }}</a></li> {%- endcomment -%}
+
+
+{%- comment -%} 
 {% for post in site.categories.elective %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" 
@@ -29,4 +35,5 @@ title: Individual Projects
       <h2><span>{{ post.title }}</span></h2>
     </div>
   </a>
-{% endfor %}
+{% endfor %} 
+{%- endcomment -%}
