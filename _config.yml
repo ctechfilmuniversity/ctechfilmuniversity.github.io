@@ -17,10 +17,10 @@ sass:
 #url: https://ctechfilmuniversity.github.io/
 title:		           "CTech works"
 description:	       "a webpage to share projects made "
-author:              "CTech students"
+author:              "Creative Technologies students"
 # icon
 logo:                /assets/img/CTech_Originals/ctech-logo.png 
-header-image:        /assets/img/CTech_Originals/ctech-header.png 
+header-image:        /assets/img/CTech_Originals/ctech-header-2.png 
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
