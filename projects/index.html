@@ -1,0 +1,67 @@
+---
+layout: page
+title: Projects
+---
+
+{%- comment -%} 
+<div id="search-wrapper">
+  <form action="{{ site.baseurl }}/pages/search.html" method="get" class="search-form">
+    <input type="text" id="search-box" name="query" class="search-text-input">
+    <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+  </form>
+</div>
+ {%- endcomment -%}
+
+<div class="col-margin">
+    {% include all_tags.html %}
+</div>
+
+
+{%- comment -%} 
+<h2 class="recentprojects">Recent</h2>
+{% for post in site.categories.Projects %}
+  <a href="{{ site.github.url }}{{ post.url }}">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}/assets/img/{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>{{ post.title }}</span></h2>
+    </div>
+  </a>
+{% endfor %} 
+{%- endcomment -%}
+
+
+<h2 class="recentprojects">Recent</h2>
+{% for post in paginator.posts %}
+<a href="{{ site.github.url }}{{ post.url }}">
+  <div class="featured-posts" 
+      {% if post.cover-image %}
+          style="background-image:url({{ site.github.url }}/assets/img/{{ post.cover-image }})"
+      {% else  %}
+          style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+      >
+      <h2><span>{{ post.title }}</span></h2>
+  </div>
+</a>
+
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
+  {% else %}
+    <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
+    {% else %}
+      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
+  {% endif %}
+</div>

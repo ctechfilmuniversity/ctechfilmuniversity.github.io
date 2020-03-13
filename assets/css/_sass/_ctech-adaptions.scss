@@ -10,7 +10,8 @@
     #search-results {
         a {
             text-decoration: none;
-            margin: 0.1em 1px;
+            margin: 0.1em 1px 1em;
+            float: left;
         }
         
         p {
@@ -67,6 +68,23 @@
     }
 }
 
+header.site-header {
+    .search-form {
+        float: right;
+        padding: 13px 10px;
+
+        .search-text-input {
+            padding: 5px 10px 3px 0;
+            font-size: 0.9rem;
+            width: 10em;
+        }
+
+        .search-button {
+            font-size: 1.0rem;
+        }
+    }
+}
+
 ///////////////////
 // Projects page
 ///////////////////
@@ -77,25 +95,27 @@
 ///////////////////
 // Tags
 ///////////////////
-.page-tags {
-    margin: 30px 10px;
-}
-
 .tags {
     a {
         line-height: 1.7;
         text-decoration: none;
     }
+
+    &.top {
+        margin-bottom: 1.5em;
+    }
 }
+
+
 
 ///////////////////
 // Responsive utilities
 ///////////////////
-.visible-mobile {
+.visible-mobile, .visible-menu-mobile {
     display: block;
 }
 
-.visible-desktop {
+.visible-desktop, .visible-menu-desktop {
     display: none;
 }
 
@@ -109,6 +129,75 @@
     }
 }
 
+@media only screen and (min-width: 1100px) {
+    .visible-menu-desktop {
+        display: block;
+    }
+
+    .visible-menu-mobile {
+        display: none;
+    }
+}
+
 .img-responsive, article img {
     max-width: 100%;
+}
+
+
+///////////////////
+// Responsive utilities columns
+///////////////////
+.col-margin {
+    margin: 30px 10px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6 {
+    width: 100%;
+
+    .col-margin {
+
+        .featured-posts {
+            margin: 10px 0;
+            height: 170px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {
+        float: left;
+        width: 16.66%;
+    }
+    
+    .col-2 {
+        float: left;
+        width: 33.33%;
+    }
+    
+    .col-3 {
+        float: left;
+        width: 50%;
+    }
+    
+    .col-4 {
+        float: left;
+        width: 66.66%;
+    }
+    
+    .col-5 {
+        float: left;
+        width: 83.33%;
+    }
+    
+    .col-6 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }

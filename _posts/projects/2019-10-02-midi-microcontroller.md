@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MIDI Mircrocontroller"
+title: "MIDI Microcontroller"
 author: "Franziska Pätzold"
 categories: Projects
 tags: WS1819 OrientationProject Midi Audio Instrument Ultrasonic PhysicalComputing
