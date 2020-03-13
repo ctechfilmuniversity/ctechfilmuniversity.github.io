@@ -1,0 +1,110 @@
+///////////////////
+// Search
+///////////////////
+
+#search-wrapper {
+    .search-form, #search-results {
+        margin: 5px 10px 10px;
+    }
+    
+    #search-results {
+        a {
+            text-decoration: none;
+            margin: 0.1em 1px;
+        }
+        
+        p {
+            margin-top: 0;
+        }
+
+        .txtwrapper {
+            margin-left: 0;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .txtwrapper {
+                margin-left: 11em;
+            }
+        }
+    }
+
+    .search-image {
+        height: 10em;
+        width: 10em;
+        background-position: center;
+        background-size: cover;
+        float: left;
+        //margin-right: 1em;
+
+        &.visible-mobile {
+            height: 8em;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: .5em;
+        }
+    }
+
+    .noresults {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+.search-form {
+    .search-text-input {
+        border: 0 solid black;
+        border-bottom-width: 1px;
+        padding: 5px 10px 5px 0;
+        font-size: 1.2rem;
+    }
+    .search-button {
+        cursor: pointer;
+        font-size: 1.5rem;
+        background: transparent;
+        border: 0;
+        padding: 5px 10px;
+    }
+}
+
+///////////////////
+// Projects page
+///////////////////
+.recentprojects {
+    margin: 5px 10px 10px;
+}
+
+///////////////////
+// Tags
+///////////////////
+.page-tags {
+    margin: 30px 10px;
+}
+
+.tags {
+    a {
+        line-height: 1.7;
+        text-decoration: none;
+    }
+}
+
+///////////////////
+// Responsive utilities
+///////////////////
+.visible-mobile {
+    display: block;
+}
+
+.visible-desktop {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .visible-mobile {
+        display: none;
+    }
+    
+    .visible-desktop {
+        display: block;
+    }
+}

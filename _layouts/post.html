@@ -55,15 +55,10 @@ layout: default
     <h2>Tags</h2>
     <div class="tags">
       {% for tag in page.tags %}
-        {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code></a>
+        {% capture tagname %}{{ tag }}{% endcapture %}
+        <a href="/pages/search.html?query=tag%3A{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
       {% endfor %}
     </div>
-    {%- comment -%} <ul class="tags">
-      {% for tag in page.tags %}
-        <li>{{ tag }}</li>
-      {% endfor %}
-    </ul> {%- endcomment -%}
 
     <h2>{{ site.data.settings.related_posts }}</h2>
     {% assign listed_posts_urls = page.url | split: ' ' %}
