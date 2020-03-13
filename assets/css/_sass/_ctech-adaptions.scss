@@ -108,3 +108,7 @@
         display: block;
     }
 }
+
+.img-responsive, article img {
+    max-width: 100%;
+}
