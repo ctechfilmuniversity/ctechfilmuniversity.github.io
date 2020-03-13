@@ -11,3 +11,43 @@ title: Home
  {%- endcomment -%}
     <img id="ctech-img" src="{{ site.header-image }}" alt="the pixel logo of creative technologies">
 </div>
+<div class="row">
+    <div class="col-3">
+        <div class="col-margin">
+            <h2>Recent</h2>
+            {% for post in site.categories.Projects %}
+                {% if forloop.index > 2 %}
+                    {% break %}
+                {% endif %}
+                <a href="{{ site.github.url }}{{ post.url }}">
+                    <div class="featured-posts" 
+                    {% if post.cover-image %}
+                        style="background-image:url({{ site.github.url }}/assets/img/{{ post.cover-image }})"
+                    {% else  %}
+                        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+                    {% endif %}
+                    >
+                    <h2><span>{{ post.title }}</span></h2>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="col-3">
+        <div class="col-margin">
+            {% include all_tags.html %}
+        </div>
+    </div>
+{%- comment -%} 
+    <div class="col-2">
+        <h2>Search</h2>
+        <div id="search-wrapper">
+            <form action="{{ site.baseurl }}/pages/search.html" method="get" class="search-form">
+              <input type="text" id="search-box" name="query" class="search-text-input">
+              <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+     {%- endcomment -%}
+</div>

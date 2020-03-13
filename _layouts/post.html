@@ -25,6 +25,13 @@ layout: default
     {% endif %}
   </span>
 
+  <div class="tags top">
+    {% for tag in page.tags %}
+      {% capture tagname %}{{ tag }}{% endcapture %}
+      <a href="/pages/search.html?query=tag%3A{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+    {% endfor %}
+  </div>
+
   {% if page.cover-image %}
     <div class="featured-image">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.cover-image }}" alt="{{ page.cover-image-title }}">
@@ -52,6 +59,7 @@ layout: default
   </div>
 
   <div class="related">
+<!--     
     <h2>Tags</h2>
     <div class="tags">
       {% for tag in page.tags %}
@@ -59,6 +67,7 @@ layout: default
         <a href="/pages/search.html?query=tag%3A{{ tagname }}"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
       {% endfor %}
     </div>
+ -->
 
     <h2>{{ site.data.settings.related_posts }}</h2>
     {% assign listed_posts_urls = page.url | split: ' ' %}
@@ -73,7 +82,7 @@ layout: default
                   <div class="related-thumbnail">
                     {% if mypost.cover-image %}
                     <!--  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.date }}/{{ mypost.cover-image }}" -->
-                      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/test_pics/{{ mypost.cover-image }}" alt="{{ page.cover-image-title }}">
+                      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.cover-image }}" alt="{{ mypost.cover-image-title }}">
                     {% endif %}
                   </div>
                   <div class="related-title">
