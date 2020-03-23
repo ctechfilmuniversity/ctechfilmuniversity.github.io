@@ -32,7 +32,7 @@ jobs:
         git commit -m "ci: Automated build push" -a | exit 0
     - name: Push changes
       #if: github.ref == 'refs/heads/master'
-      branch: markus
       uses: ad-m/github-push-action@master
       with:
+        branch: markus
         github_token: ${{ secrets.GITHUB_TOKEN }}
