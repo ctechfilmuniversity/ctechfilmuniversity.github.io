@@ -4,7 +4,7 @@ import re
 import shutil
 from datetime import datetime
 
-path_new_post = "__content/__new-post/"
+path_new_post = "__content/new-post/"
 path_existing_posts = "__content/"
 
 path_jekyll_post_md = "_posts/projects/"
@@ -18,7 +18,7 @@ def check_for_new_or_updated_posts():
         create_new_post(new_post_files)
 
     existing_posts = index_files_folders(False, path_existing_posts)
-    existing_posts.remove("__new-post")
+    existing_posts.remove("new-post")
     if len(existing_posts) > 0:
         copy_post_files_to_destination(existing_posts)
     
