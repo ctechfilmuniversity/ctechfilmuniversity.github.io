@@ -20,4 +20,18 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
-    - run: python __scripts/update_posts.py
+    - name: Updating content
+      run: |
+        python __scripts/update_posts.py
+    - name: Commit files
+      run: |
+        echo ${{ github.ref }}
+        git add .
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "ci: Automated build push" -a | exit 0
+    - name: Push changes
+      #if: github.ref == 'refs/heads/master'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

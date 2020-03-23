@@ -10,6 +10,7 @@ path_existing_posts = "__content/"
 path_jekyll_post_md = "_posts/projects/"
 path_jekyll_post_pics = "assets/img/projects/"
 
+
 def check_for_new_or_updated_posts():
     new_post_files = index_files_folders(True, path_new_post)
     new_post_files.remove("readme.md")
@@ -34,6 +35,7 @@ def index_files_folders(return_files, path):
     else:
         return folders
 
+
 def create_new_post(files):
     r = re.compile(".*.md")
     text = list(filter(r.match, files)) # Read Note
@@ -52,7 +54,8 @@ def create_new_post(files):
                     shutil.copy2(path_new_post + file, path)
                 
                 # Delete file in origin
-                # os.remove(path_new_post + file)
+                os.remove(path_new_post + file)
+
 
 def create_directory(path):
     if os.path.exists(path):
@@ -67,6 +70,7 @@ def create_directory(path):
         else:
             print ("Successfully created the directory %s " % path)
             return True
+
 
 def copy_post_files_to_destination(existing_posts):
     regex_md_pictures = re.compile(r"(!\[.*\]\()(.*\))", re.IGNORECASE)
@@ -87,7 +91,7 @@ def copy_post_files_to_destination(existing_posts):
                 mdFile = open(path_jekyll_post_md + file, "r")
                 mdFileContent = mdFile.read()
                 mdFile.close()
-                
+
                 mdFileContent = regex_md_pictures.sub("\g<1>" + "/" + path_pictures + "\g<2>", mdFileContent)
                 mdFileContent = regex_cover_image.sub("\g<1>" + "/" + path_pictures + "\g<2>", mdFileContent)
 
@@ -99,7 +103,6 @@ def copy_post_files_to_destination(existing_posts):
                     shutil.copy2(full_path_post_folder + file, path_pictures)
                 else:
                     print("Could not update file: " + file + " in directory: " + path_pictures)
-
 
 
 print("### Starting to look for new or updated content")
