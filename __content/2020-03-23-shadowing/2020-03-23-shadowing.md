@@ -9,7 +9,7 @@ cover-image: schattenkabinett.png
 cover-image-title: schattenkabinett
 ---
 
-## Abstract
+## Abstract Test
 Shadowing is an photo-booth-like installation, where visitors can take pictures of their shadows. People then can download the picture directly onto a smartphone. Since taking a picture often required help from experts, a computer character, KAI, has been added to aid and entertain people throughout the process.
 
 ## Project description
