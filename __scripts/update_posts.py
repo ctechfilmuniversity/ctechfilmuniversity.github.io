@@ -5,7 +5,7 @@ path_new_post = "__content/__new-post/"
 path_existing_posts = "__content/"
 
 def check_for_new_or_updated_posts():
-    new_post_files = index_files_folders(true, path_new_post)
+    new_post_files = index_files_folders(True, path_new_post)
     #existing_posts = index_files_folders(false, path_existing_posts)
 
     if len(new_post_files) > 0:
