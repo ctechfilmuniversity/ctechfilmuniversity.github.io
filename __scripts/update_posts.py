@@ -6,7 +6,7 @@ path_existing_posts = "__content/"
 
 def check_for_new_or_updated_posts():
     new_post_files = index_files_folders(True, path_new_post)
-    #existing_posts = index_files_folders(false, path_existing_posts)
+    #existing_posts = index_files_folders(False, path_existing_posts)
 
     if len(new_post_files) > 0:
         create_new_post(new_post_files)
@@ -34,7 +34,7 @@ def create_new_post(files):
         print ("Successfully created the directory %s " % path)
 
     print("####### test folder erstellt?")
-    index_files_folders(false, path_existing_posts)
+    index_files_folders(False, path_existing_posts)
 
 print("### Starting to look for new or updated content")
 check_for_new_or_updated_posts()
