@@ -20,4 +20,4 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
-    - run: python __content/update_posts.py
+    - run: python __scripts/update_posts.py

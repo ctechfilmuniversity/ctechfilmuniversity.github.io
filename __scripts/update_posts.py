@@ -7,7 +7,7 @@ print(sys.version)
 
 
 f = []
-for (dirpath, dirnames, filenames) in walk(mypath):
+for (dirpath, dirnames, filenames) in walk("__content/"):
     print(filenames)
     f.extend(filenames)
     break
