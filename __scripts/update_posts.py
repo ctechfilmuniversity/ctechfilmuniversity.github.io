@@ -15,7 +15,7 @@ def check_for_new_or_updated_posts():
 def index_files_folders(return_files, path):
     files = []
     folders = []
-    for (_, dirnames, filenames) in walk(path):
+    for (_, dirnames, filenames) in os.walk(path):
         folders.extend(dirnames)
         files.extend(filenames)
         break
