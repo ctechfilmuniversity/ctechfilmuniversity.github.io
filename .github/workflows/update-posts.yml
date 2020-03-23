@@ -2,9 +2,9 @@ name: Update posts
 
 on:
   push:
-    branches: [ markus ]
+    branches: [ master ]
   pull_request:
-    branches: [ markus ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.5, 3.6, 3.7, 3.8]
+        python-version: [3.8]
 
     steps:
     - uses: actions/checkout@v2
@@ -20,4 +20,19 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
-    - run: python __content/update_posts.py
+    - name: Updating content
+      run: |
+        python __scripts/update_posts.py
+    - name: Commit files
+      run: |
+        echo ${{ github.ref }}
+        git add .
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Automated content creation push" -a | exit 0
+    - name: Push changes
+      #if: github.ref == 'refs/heads/master'
+      uses: ad-m/github-push-action@master
+      with:
+        branch: master
+        github_token: ${{ secrets.GITHUB_TOKEN }}

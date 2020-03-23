@@ -5,7 +5,7 @@ author: "Franziska Pätzold"
 categories: Projects
 tags: WS1819 OrientationProject Midi Audio Instrument Ultrasonic PhysicalComputing
 
-cover-image: projects/2019-10-02-midi-microcontroller/midi_micro_controller_banner.png
+cover-image: /assets/img/projects/2019-10-02-midi-microcontroller/midi_micro_controller_banner.png
 cover-image-title: midi_micro_controller_banner
 ---
 
