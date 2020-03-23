@@ -10,7 +10,7 @@ title: Projects
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" 
       {% if post.cover-image %}
-        style="background-image:url({{ site.github.url }}/assets/img/{{ post.cover-image }})"
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
       {% else  %}
         style="background-image:url({{ site.github.url }} {{ site.header-image }})"
       {% endif %}
@@ -30,7 +30,7 @@ title: Projects
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" 
       {% if post.cover-image %}
-        style="background-image:url({{ site.github.url }}/assets/img/test_pics/{{ post.cover-image }})"
+        style="background-image:url({{ site.github.url }}test_pics/{{ post.cover-image }})"
       {% else  %}
         style="background-image:url({{ site.github.url }} {{ site.header-image }})"
       {% endif %}

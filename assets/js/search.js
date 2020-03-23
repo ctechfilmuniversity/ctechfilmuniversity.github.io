@@ -56,7 +56,7 @@
                 appendString += '<a href="' + item.url + '"><div>';
                 let coverImageHTML = '<div class="search-image visible-desktop" ';
                 if (item.coverImage !== null && item.coverImage.length > 0) {
-                    coverImageHTML += 'style="background-image:url(/assets/img/' + item.coverImage + '")>';
+                    coverImageHTML += 'style="background-image:url(item.coverImage)">';
                 } else {
                     coverImageHTML += 'style="background-image:url(/assets/img/CTech_Originals/ctech-header-2.png")>';
                 }
