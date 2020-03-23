@@ -34,7 +34,8 @@ def create_new_post(files):
         print ("Successfully created the directory %s " % path)
 
     print("####### test folder erstellt?")
-    index_files_folders(False, path_existing_posts)
+    print(index_files_folders(False, path_existing_posts))
+    
 
 print("### Starting to look for new or updated content")
 check_for_new_or_updated_posts()
