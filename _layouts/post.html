@@ -34,14 +34,14 @@ layout: default
 
   {% if page.cover-image %}
     <div class="featured-image">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.cover-image }}" alt="{{ page.cover-image-title }}">
+      <img src="{{ site.url }}{{ site.baseurl }}{{ page.cover-image }}" alt="{{ page.cover-image-title }}">
     </div>
   {% endif %}
 
   {% if page.gallery %}
   <ul class="photo-gallery">
     {% for image in page.gallery %}
-      <li style="background-image: url({{ site.url }}{{ site.baseurl }}/assets/img/test_pics/{{ image.path }})"> </li>
+      <li style="background-image: url({{ site.url }}{{ site.baseurl }}{{ image.path }})"> </li>
     {% endfor %}
   </ul>
   {% endif %}
@@ -81,8 +81,8 @@ layout: default
                 <a href="{{ site.github.url }}{{ mypost.url }}">
                   <div class="related-thumbnail">
                     {% if mypost.cover-image %}
-                    <!--  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.date }}/{{ mypost.cover-image }}" -->
-                      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ mypost.cover-image }}" alt="{{ mypost.cover-image-title }}">
+                    <!--  <img src="{{ site.url }}{{ site.baseurl }}{{ mypost.date }}/{{ mypost.cover-image }}" -->
+                      <img src="{{ site.url }}{{ site.baseurl }}{{ mypost.cover-image }}" alt="{{ mypost.cover-image-title }}">
                     {% endif %}
                   </div>
                   <div class="related-title">
