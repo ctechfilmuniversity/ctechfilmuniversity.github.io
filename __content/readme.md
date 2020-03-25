@@ -1,8 +1,8 @@
 # How to create a new post
-## Write post
-In order to write your post, use the MarkDown template, provided here: [Post Template](template_post.md)
+## 1 Write post
+In order to write your post, use the MarkDown template, provided [here](template_post.md). Name the file after your project title, e.g. "example-project.md".
 
-You can also copy it from below:
+You can also copy the template from below:
 
 ```
 ---
@@ -27,26 +27,26 @@ cover-image-title: xxxx # a descriptive title for the image
 ## Lessons learned
 ```
 
-### Filling in the meta information
+### 1.1 Filling in the meta information
 As stated in the comments in the header section, please replace all occurances of "xxxx" with your information on the project. Please add as many tags, as you like. You can look for tags on the [website](https://ctechfilmuniversity.github.io/).
 
-### Writing the actual content
+### 1.2 Writing the actual content
 Please keep the given headings for your post, since it will give all posts a more coherent structure. But you are free to add additional sub headings, if you want to. 
 
-#### Images
+#### 1.2.1 Images
 Images can be added according to MarkDown syntax, but you have to keep the image files in the same folder, as your Markdown post. Always use a relative path to your pictures, in particular just provide the file name, e.g.:
 ```
 ![very-nice-picture](myPicture.png)
 ```
 
-### Example
-You can always have a look, at preexisting posts, that can be found in this folder. Every post has its own folder, beginning with the date.
+### 1.3 Example
+You can always have a look, at preexisting posts, that can be found in this folder ("__content"). Every post has its own folder, beginning with the date.
 
 Furthermore here is a made up example:
 ```
 ---
 layout: post
-title: "My very nice project"
+title: "Example Project"
 author: "Max Muster"
 categories: Projects
 tags: WS1819 OrientationProject PhysicalComputing Audio
@@ -56,13 +56,14 @@ cover-image-title: Project Key Visual
 ---
 
 ## Abstract
-This is my project "My very nice project", which has been...
+This is my project "Example Project", which has been...
 
 ## Project description
 My intention on this project was to...
 
 ### Media
 Here you can see...
+![very-nice-picture](myPicture.png)
 
 ## Implementation
 To implement my idea, several technologies and...
@@ -72,3 +73,25 @@ Time was the most limiting factor...
 
 ```
 
+## 2 Create the post on the website
+### 2.1 Commit and push the post files
+Copy your files to the folder "__content/new-post/", commit and push the files. Your files should contain:
+* One Markdown file with the textual content, based on the provided template
+* Image files
+
+### 2.2 Post published
+Github will automatically process the post, wait for a new commit titled "Automated content creation push" to be pushed to the repository. This should normally take place within a minute, maybe a little more.
+
+After some more minutes, the post should also be published on the live website.
+
+## 3 Modifying existing posts
+### 3.1 Editing posts
+In the folder "__content" all posts are kept in separate folders, beginning with the publishing date, followed by its project name, e.g. "2020-03-23-example-project".
+
+Files within that folder can be edited, commited and pushed. Github will automatically publish the changes after a few minutes. 
+
+### 3.2 Deleting posts
+In order to delete a post, files in three different folders have to be deleted:
+* The complete folder in "__content/", e.g. "2020-03-23-example-project"
+* The MarkDown file of the project in "_posts/projects/", e.g. "2020-03-23-example-project.md"
+* The complete assets folder of the project in "assets/img/projects/", e.g. "2020-03-23-example-project"
