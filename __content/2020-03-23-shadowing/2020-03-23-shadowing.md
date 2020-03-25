@@ -23,10 +23,10 @@ KAI
 * Comments on the picture taken
 * Tells trivia or nerdy jokes when he is bored
 
-<!-- ![kai_traber](kai-repres-foto.png) -->
+### Making of Shadowing University Fulda 2019
+{% include vimeo.html id="369560161" %}
 
-### Media
-* [Video — University Fulda 2019](https://vimeo.com/369560161)
+### Photo Galleries
 * [Photo Gallery — University Fulda 2019](https://tagdeswissens.fuchsteufels.de/)
 * [Photo Gallery — Film University Babelsberg Konrad Wolf 2018](https://shadowing-filmuni18.fuchsteufels.de/)
 * [Photo Gallery — Stadt für eine Nacht 2018](https://shadowing-sfen18.fuchsteufels.de/)
