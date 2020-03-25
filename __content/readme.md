@@ -93,7 +93,7 @@ Copy your files to the folder "__content/new-post/". All files should be in the 
 * Image files
 
 ### 2.2 Post published
-Github will automatically process the post, wait for a new commit titled "Automated content creation push" to be pushed to the repository. This should normally take place within a minute, maybe a little more.
+Github will automatically process the post, wait for a new commit by "GitHub Action" titled "Automated content creation push" to be pushed to the repository. This should normally take place within a minute, maybe a little more.
 
 After some more minutes, the post should also be published on the live website.
 
