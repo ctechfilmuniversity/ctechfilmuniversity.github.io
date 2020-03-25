@@ -1,3 +1,4 @@
+# !!! This information is outdated !!!
 # User Instructions for Students
 
 - submission is in a folder, marked with "submission_to_publish_your_last_name"

@@ -75,7 +75,7 @@ Time was the most limiting factor...
 
 ## 2 Create the post on the website
 ### 2.1 Commit and push the post files
-Copy your files to the folder "__content/new-post/", commit and push the files. Your files should contain:
+Copy your files to the folder "__content/new-post/". All files should be in the same folder level, do not create sub directories. Commit and push the files. Your files should contain:
 * One Markdown file with the textual content, based on the provided template
 * Image files
 
