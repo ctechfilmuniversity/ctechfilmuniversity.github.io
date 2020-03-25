@@ -39,6 +39,19 @@ Images can be added according to MarkDown syntax, but you have to keep the image
 ![very-nice-picture](myPicture.png)
 ```
 
+### 1.2.2 Videos
+You can embed videos from Youtube or Vimeo. Just use the code fragments below and fill in the video id between the two quotation marks.
+
+Youtube: 
+```
+{% include youtube.html id="" %}
+```
+
+Vimeo: 
+```
+{% include vimeo.html id="" %}
+```
+
 ### 1.3 Example
 You can always have a look, at preexisting posts, that can be found in this folder ("__content"). Every post has its own folder, beginning with the date.
 
