@@ -5,7 +5,7 @@ author: "Markus Traber"
 categories: Projects
 tags: WS1819 OrientationProject PhysicalComputing PhotoBooth AI
 
-cover-image: /assets/img/projects/2020-03-23-shadowing/schattenkabinett.png
+cover-image: /assets/img/projects/2020-03-23-shadowing/schattenkabinett.png # test
 cover-image-title: schattenkabinett
 ---
 
