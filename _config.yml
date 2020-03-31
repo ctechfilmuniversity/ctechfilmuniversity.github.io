@@ -15,8 +15,9 @@ sass:
   style: :nested
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-#url: https://ctechfilmuniversity.github.io/
-title:		           "CTech works"
+#
+url: https://ctechfilmuniversity.github.io/
+title:		           "CTech Projects"
 description:	       "a webpage to share projects made "
 author:              "Creative Technologies students"
 # icon

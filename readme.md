@@ -1,4 +1,4 @@
-# CTech works
+# CTech Projects
 
 Hi. This repo is a Jekyll-Blog-System to share projects from CTechis for CTechis. 
 
