@@ -2,5 +2,14 @@
   {% for item in site.data.settings.social %}
     <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
   {% endfor %}
-  <div class="post-date"><a href="{{ site.github.url }}/">{{ site.title }} | {{ site.description }} by {{ site.author }}</a></div>
+  {%- comment -%} Adding Imprint and Privacy {%- endcomment -%}
+  <a href="/pages/imprint.html" class="menu-link" target="_self">Imprint</a>
+  <a href="/pages/privacy-policy.html" class="menu-link" target="_self">Privacy policy</a>
+
+  <div class="post-date">
+    {%- comment -%} <a href="{{ site.github.url }}/">{{ site.title }} | {{ site.description }} by {{ site.author }}</a> {%- endcomment -%}
+    <p>{{ site.title }} | {{ site.description }} by {{ site.author }}</p>
+
+  </div>
+
 </footer>
