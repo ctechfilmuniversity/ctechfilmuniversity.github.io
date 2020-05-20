@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Virtual Cookie"
 author: "Rita Eperjesi"
@@ -5,8 +6,7 @@ categories: Projects
 tags: ChristmasCard CC1 WS1920
 
 cover-image: /assets/img/projects/2020-05-20-virtual_cookie/virtualcookie.png 
-cover-image-title: virtual cookie 
-
+cover-image-title: virtual cookie
 ---
 
 ## Abstract
