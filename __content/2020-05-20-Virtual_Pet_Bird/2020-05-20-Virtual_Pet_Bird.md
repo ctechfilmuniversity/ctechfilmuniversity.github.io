@@ -6,7 +6,7 @@ categories: Projects
 tags: CC1 WS1920 FinalProject
 
 cover-image: VPB_Example.png
-cover-image-title: Pet Bird Hungry
+cover-image-title: Pet Bird Tiny Walk
 ---
 
 ## Abstract
