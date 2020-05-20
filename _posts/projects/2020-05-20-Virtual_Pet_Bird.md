@@ -6,7 +6,7 @@ categories: Projects
 tags: CC1 WS1920 FinalProject
 
 cover-image: /assets/img/projects/2020-05-20-Virtual_Pet_Bird/VPB_Example.png
-cover-image-title: Pet Bird Hungry
+cover-image-title: Pet Bird Tiny Walk
 ---
 
 ## Abstract
@@ -14,7 +14,7 @@ I tried to create a virtual pet which can be tried out on:
 https://cc-final-vb.herokuapp.com/
 
 ## Project description
-My intention on this project was to create a tiny ecosystem with a small animal that the user can interact with. The animal was supposed react randomly.
+My intention on this project was to create a tiny ecosystem with a small animal that the user can interact with. The animal was supposed react randomly, according to the user input. The background was also supposed to react randomly.
 
 
 ## Implementation
