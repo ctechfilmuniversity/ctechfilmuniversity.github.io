@@ -14,7 +14,7 @@ I tried to create a virtual pet which can be tried out on:
 https://cc-final-vb.herokuapp.com/
 
 ## Project description
-My intention on this project was to create a tiny ecosystem with a small animal that the user can interact with. The animal was supposed react randomly.
+My intention on this project was to create a tiny ecosystem with a small animal that the user can interact with. The animal was supposed react randomly, according to the user input. The background was also supposed to react randomly.
 
 
 ## Implementation
