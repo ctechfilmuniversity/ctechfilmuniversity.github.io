@@ -13,7 +13,8 @@ path_jekyll_post_pics = "assets/img/projects/"
 
 def check_for_new_or_updated_posts():
     new_post_files = index_files_folders(True, path_new_post)
-    new_post_files.remove("readme.md")
+    if "readme.md" in new_post_files:
+        new_post_files.remove("readme.md")
     if len(new_post_files) > 0:
         create_new_post(new_post_files)
 
