@@ -45,6 +45,6 @@ jobs:
         token: '${{ secrets.TOKEN }}'
     - run: |
         git config --global user.name 'philclausen'
-        git config --global user.email 'philclausen@gmail.com'
+        git config --global user.email 'phil.clausen@gmail.com'
         git commit -am "Automated push"
         git push
