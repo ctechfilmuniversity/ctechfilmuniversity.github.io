@@ -3,6 +3,9 @@ name: Update posts
 on:
   push:
     branches: [ master ]
+    paths-ignore:
+      - 'projects'
+      - 'assets'
 #  pull_request:
 #    branches: [ master ]
 
