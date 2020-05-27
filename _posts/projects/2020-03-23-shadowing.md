@@ -10,7 +10,7 @@ cover-image-title: schattenkabinett
 ---
 
 ## Abstract
-Shadowing is an photo-booth-like installation, where visitors can take pictures of their shadows. People then can download the picture directly onto a smartphone. Since taking a picture often required help from experts, a computer character, KAI, has been added to aid and entertain people throughout the process.
+Shadowing is an photo-booth-like installation, where visitors can take pictures of their shadows. People then can download the picture directly onto a smartphone. Since taking a picture often required help from experts, a computer character, KAI, has been added to aid and entertain people throughout the process. 
 
 ## Project description
 The aim of this project has been to extend the capabilities of Shadowing with a computer character, that would help people to take pictures, entertain and furthermore motivate people passing by. Therefore the character "KAI" has been created. KAI is a recursive acronym for "Kai Artificial Intelligence". He is smart, funny, sassy, nerdy, self-confident, would not admit if he was wrong and is quickly bored.
