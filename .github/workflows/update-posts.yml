@@ -3,9 +3,6 @@ name: Update posts
 on:
   push:
     branches: [ master ]
-    paths-ignore:
-      - 'projects'
-      - 'assets'
 #  pull_request:
 #    branches: [ master ]
 
@@ -19,6 +16,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+        fetch-depth: 0
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
@@ -26,25 +26,16 @@ jobs:
     - name: Updating content
       run: |
         python __scripts/update_posts.py
-    #- name: Commit files
-    #  run: |
-    #    echo ${{ github.ref }}
-    #    git add .
-    #    git config --local user.email "action@github.com"
-    #    git config --local user.name "GitHub Action"
-    #    git commit -m "Automated content creation push" -a | exit 0
-    #- name: Push changes
-    #  #if: github.ref == 'refs/heads/master'
-    #  uses: ad-m/github-push-action@master
-    #  with:
-    #    branch: master
-    #    github_token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Push
-      uses: actions/checkout@v2
+    - name: Commit files
+      run: |
+        echo ${{ github.ref }}
+        git add .
+        git config --local user.email "phil.clausen@gmail.com"
+        git config --local user.name "philclausen"
+        git commit -m "Automated content creation push" -a | exit 0
+    - name: Push changes
+      #if: github.ref == 'refs/heads/master'
+      uses: ad-m/github-push-action@master
       with:
-        token: '${{ secrets.TOKEN }}'
-    - run: |
-        git config --global user.name 'philclausen'
-        git config --global user.email 'phil.clausen@gmail.com'
-        git commit -am "Automated push"
-        git push
+        branch: master
+        github_token: ${{ secrets.TOKEN }}
