@@ -39,19 +39,12 @@ jobs:
     #  with:
     #    branch: master
     #    github_token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Commit to repository
-      uses: oleksiyrudenko/gha-git-credentials@v1
+    - name: Push
+      uses: actions/checkout@v2
       with:
-        name: 'philclausen'
-        email: 'phil.clausen@gmail.com'
-        actor: 'philclausen'
         token: '${{ secrets.TOKEN }}'
     - run: |
-        git config user.email 'phil.clausen@gmail.com'
-        git config user.name 'philclausen'
-        git config user.password ${{ secrets.TOKEN }}
-        # Checkout the branch so we can push back to it
-        git checkout master
-        git add .
-        # Commit and push
-        git commit -m "Automated content creation push"; git push origin master
+        git config --global user.name 'philclausen'
+        git config --global user.email 'philclausen@gmail.com'
+        git commit -am "Automated push"
+        git push
