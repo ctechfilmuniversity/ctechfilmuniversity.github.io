@@ -23,13 +23,13 @@ jobs:
     - name: Updating content
       run: |
         python __scripts/update_posts.py
-    - name: Commit files
-      run: |
-        echo ${{ github.ref }}
-        git add .
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m "Automated content creation push" -a | exit 0
+    #- name: Commit files
+    #  run: |
+    #    echo ${{ github.ref }}
+    #    git add .
+    #    git config --local user.email "action@github.com"
+    #    git config --local user.name "GitHub Action"
+    #    git commit -m "Automated content creation push" -a | exit 0
     #- name: Push changes
     #  #if: github.ref == 'refs/heads/master'
     #  uses: ad-m/github-push-action@master
@@ -51,5 +51,5 @@ jobs:
         # Checkout the branch so we can push back to it
         git checkout master
         git add .
-        # Only commit and push if we have changes
-        git diff --quiet && git diff --staged --quiet || (git commit -m "${COMMIT_MSG}"; git push origin master)
+        # Commit and push
+        git commit -m "${COMMIT_MSG}"; git push origin master
