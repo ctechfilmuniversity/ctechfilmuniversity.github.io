@@ -47,6 +47,9 @@ jobs:
         actor: 'philclausen'
         token: '${{ secrets.TOKEN }}'
     - run: |
+        git config user.email 'phil.clausen@gmail.com'
+        git config user.name 'philclausen'
+        git config user.password ${{ secrets.TOKEN }}
         # Checkout the branch so we can push back to it
         git checkout master
         git add .
