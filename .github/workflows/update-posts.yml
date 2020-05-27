@@ -41,7 +41,7 @@ jobs:
     #    github_token: ${{ secrets.GITHUB_TOKEN }}
     - name: Commit to repository
       env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+        TOKEN: ${{ secrets.TOKEN }}
         COMMIT_MSG: |
           "Automated content creation push"
         skip-checks: true
@@ -49,6 +49,7 @@ jobs:
         # Hard-code user configuration
         git config user.email "phil.clausen@gmail.com"
         git config user.name "philclausen"
+        git config user.password "${TOKEN}"
         # Update origin with token
         git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
         # Checkout the branch so we can push back to it
