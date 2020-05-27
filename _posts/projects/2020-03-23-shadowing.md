@@ -49,4 +49,4 @@ As it can be seen in the figure above, the functionality of the computer charact
 In practice it turned out, that interacting with KAI via voice commands would not be used very often. Presumably because first time users don't know the commands and furthermore it is not that great of an advantage compared to pressing a big button close by. In addition Shadowing is beeing performed almost every time in loud environments, which compromises the functionality of the speech recognition system.
 
 ### Complexity
-Looking back, the project and planned features turned out to be more complex than expected. I probably should have focused more on enhancing less features.
+Looking back, the project and planned features turned out to be more complex than expected. I probably should have focused more on enhancing fewer features.
