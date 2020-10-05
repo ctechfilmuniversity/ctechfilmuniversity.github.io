@@ -108,7 +108,7 @@ Copy your files to the folder "__content/new-post/". All files should be in the 
 ### 2.3 Create a pull request
 Visit the following URL with a webbrowser: https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io/compare
 
-Click on "New pull request". Select for base "master" and for compare your branch. Click on "Create pull request". Select a Reviewer, for example Angela Brennecke, Phil Clausen or Markus Traber. Click on "Create Pull Request". Wait for the reviewer to merge your branch into master.
+Click on "New pull request". Select for base "master" and for compare your branch. Click on "Create pull request". Select a Reviewer, for example Phil Clausen or Markus Traber. Click on "Create Pull Request". Wait for the reviewer to merge your branch into master.
 
 ### 2.3 Post published
 After the branch has been merged, Github will automatically process the post. Wait for a new commit by "GitHub Action" titled "Automated content creation push" to be pushed to the repository. This should normally take place within a minute, maybe a little more.
