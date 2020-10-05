@@ -45,14 +45,14 @@ You can embed videos from Youtube or Vimeo. Just use the code fragments below an
 
 **Youtube:**
 
-You can find the video id in the url after "watch?v=". In the following url example, the id is highlighted: https://www.youtube.com/watch?v=**YRt1j9MHTZU**
+You can find the video id in the url after "watch?v=". In the following url example, the id is highlighted: [https://www.youtube.com/watch?v=**YRt1j9MHTZU**](https://www.youtube.com/watch?v=YRt1j9MHTZU) 
 ```
 {% include youtube.html id="" %}
 ```
 
 **Vimeo:**
 
-You can find the video id in the url after the last slash. In the following url example, the id is highlighted: https://vimeo.com/**6919518**
+You can find the video id in the url after the last slash. In the following url example, the id is highlighted: [https://vimeo.com/**6919518**](https://vimeo.com/6919518) 
 ```
 {% include vimeo.html id="" %}
 ```
