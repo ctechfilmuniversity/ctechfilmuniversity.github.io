@@ -117,6 +117,8 @@ After some more minutes, the post should also be published on the live website.
 
 ## 3 Modifying existing posts
 ### 3.1 Editing posts
+Please keep in mind, that you always have to pull in order to get newest repository state. You also have to always create a branch and follow the previously mentioned steps of creating a pull request and merging the content. 
+
 In the folder "__content" all posts are kept in separate folders, beginning with the publishing date, followed by its project name, e.g. "2020-03-23-example-project".
 
 Files within that folder can be edited, commited and pushed. Github will automatically publish the changes after a few minutes. 
