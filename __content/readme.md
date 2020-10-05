@@ -93,13 +93,24 @@ Time was the most limiting factor...
 ```
 
 ## 2 Create the post on the website
-### 2.1 Commit and push the post files
+### 2.1 Checkout the repository and create a branch
+Checkout the following repository:
+```
+https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io.git
+```
+Create and checkout a branch for your project locally, you could name the branch after your project.
+
+### 2.2 Commit and push the post files
 Copy your files to the folder "__content/new-post/". All files should be in the same folder level, do not create sub directories. Commit and push the files. Your files should contain:
 * One Markdown file with the textual content, based on the provided template
 * Image files
 
-### 2.2 Post published
-Github will automatically process the post, wait for a new commit by "GitHub Action" titled "Automated content creation push" to be pushed to the repository. This should normally take place within a minute, maybe a little more.
+### 2.3 Create a pull request
+Visit the following URL with a webbrowser: https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io/compare
+Click on "New pull request". Select for base "master" and for "compare" your branch. Click on "Create pull request". Select a Reviewer, for example Angela Brennecke, Phil Clausen or Markus Traber. Click on "Create Pull Request". Wait for the reviewer to merge your branch into master.
+
+### 2.3 Post published
+After the branch has been merged, Github will automatically process the post. Wait for a new commit by "GitHub Action" titled "Automated content creation push" to be pushed to the repository. This should normally take place within a minute, maybe a little more.
 
 After some more minutes, the post should also be published on the live website.
 
