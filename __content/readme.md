@@ -39,18 +39,24 @@ Images can be added according to MarkDown syntax, but you have to keep the image
 ![very-nice-picture](myPicture.png)
 ```
 
-### 1.2.2 Videos
-You can embed videos from Youtube or Vimeo. Just use the code fragments below and fill in the video id between the two quotation marks.
 
-Youtube: 
+### 1.2.2 Videos
+You can embed videos from Youtube or Vimeo. Just use the code fragments below and fill in the video id between the two quotation marks behind "id". Please keep in mind, that you have to use the video id, not the url. You can find more information on that in the following descriptions for YouTube and Vimeo.
+
+**Youtube:**
+
+You can find the video id in the url after "watch?v=". In the following url example, the id is highlighted: https://www.youtube.com/watch?v=**YRt1j9MHTZU**
 ```
 {% include youtube.html id="" %}
 ```
 
-Vimeo: 
+**Vimeo:**
+
+You can find the video id in the url after the last slash. In the following url example, the id is highlighted: https://vimeo.com/**6919518**
 ```
 {% include vimeo.html id="" %}
 ```
+
 
 ### 1.3 Example
 You can always have a look, at preexisting posts, that can be found in this folder ("__content"). Every post has its own folder, beginning with the date.
