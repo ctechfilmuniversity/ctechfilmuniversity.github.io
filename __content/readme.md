@@ -116,6 +116,8 @@ After the branch has been merged, Github will automatically process the post. Wa
 After some more minutes, the post should also be published on the live website.
 
 ## 3 Modifying existing posts
+Please keep in mind, that you always have to pull in order to get newest repository state. You also have to always create a branch and follow the previously mentioned steps of creating a pull request and merging the content. 
+
 ### 3.1 Editing posts
 Please keep in mind, that you always have to pull in order to get newest repository state. You also have to always create a branch and follow the previously mentioned steps of creating a pull request and merging the content. 
 
