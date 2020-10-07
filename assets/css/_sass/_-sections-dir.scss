@@ -1,6 +1,7 @@
 // Importing Sass/SCSS partials from `sass_dir` (defaults to `_sass`)
 @import "base",
         "default",
+        "fonts",
         "home",
         "misc",
         "post",
@@ -8,5 +9,8 @@
         "footer",
         "code",
         "social-icons",
-        "ctech-adaptions";
+        "ctech-adaptions",
+        "_fontAwesome/fontawesome",
+        "_fontAwesome/brands",
+        "_fontAwesome/solid";
 // SCSS files roughly correspond to HTML files in _includes and _layouts

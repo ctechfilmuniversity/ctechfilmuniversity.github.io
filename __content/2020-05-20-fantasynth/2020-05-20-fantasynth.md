@@ -56,4 +56,4 @@ If you start from yourself, from what is interesting only for you, you may face 
 
 Learning by doing is not the best goal-oriented strategy. Yet it can speed up the progress. 
 
-{% include vimeo.html id="https://vimeo.com/381523121" %}
+{% include vimeo.html id="381523121" %}
