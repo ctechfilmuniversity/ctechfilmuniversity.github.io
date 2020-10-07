@@ -35,7 +35,7 @@ Have a look at the instructions in the [readme.md](__content/readme.md) in the "
 └── rss-feed.xml               # Generates RSS 2.0 file which Jekyll points to
 ```
 
-#### Some notes
+## Some notes
 
 - Github pages + Jekyll ctechfilmuni webpage prototype
 - themes for Jekyll:
@@ -51,3 +51,7 @@ Have a look at the instructions in the [readme.md](__content/readme.md) in the "
 Getting started:
 - clone repo
 - run ```bundle exec jekyll serve```
+
+
+### MathJax Library deactivated
+The millenial theme comes packed with the MathJax library. It enables to display mathematical formulas in a Latex-Style manner. Because it has not been used, I deactivated it for now. If there is the need for it, I would recommend, hosting it on the server instead of CloudFlare: http://docs.mathjax.org/en/latest/web/hosting.html
