@@ -1,6 +1,8 @@
-<div class="video-container">
+<div class="video-container blocked">
+    {% include blocked_banner.html %}
     <iframe 
-        src="https://www.youtube.com/embed/{{ include.id }}"
+        src="" 
+        data-src="https://www.youtube-nocookie.com/embed/{{ include.id }}" 
         frameborder="0" 
         allowfullscreen>
     </iframe>

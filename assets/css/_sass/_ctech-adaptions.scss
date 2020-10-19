@@ -2,6 +2,10 @@
 // Search
 ///////////////////
 
+///////////////////
+// Search
+///////////////////
+
 #search-wrapper {
     .search-form, #search-results {
         margin: 5px 10px 10px;
@@ -221,4 +225,28 @@ header.site-header {
     left:0;
     width:100%;
     height:100%;
+}
+
+.video-container.blocked {
+    border: 1px solid #e0e0e0;
+    position:relative;
+    padding-bottom:30px;
+    padding-top:30px;
+    height:auto;
+    overflow:visible;
+}
+
+.video-container.blocked .blocked-message {
+    position: relative;
+    z-index: 1;
+    padding: 15px;
+    display: block;
+}
+
+.blocked-message {
+    display: none;
+}
+
+.blocked-message button {
+    cursor: pointer;
 }
