@@ -13,20 +13,18 @@ cover-image-title: Using noise in Houdini # a descriptive title for the image
 
 ## Exercise
 
-Using noise in Houdini.
+Using noise in Houdini.  
 
-![pgs_ss20_tutorial_02_nurmukhametova_01](pgs_ss20_tutorial_02_nurmukhametova_01.png)  
-by Ellina
+![pgs_ss20_tutorial_04_eschenbacher_01](pgs_ss20_tutorial_04_eschenbacher_01.gif)  
+![pgs_ss20_tutorial_04_eschenbacher_03](pgs_ss20_tutorial_04_eschenbacher_03.gif)  
+by Anna  
 
-![pgs_ss20_tutorial_01_tariq_2](pgs_ss20_tutorial_01_tariq_2.png)  
-by Zainab
+![pgs_ss20_tutorial_04_tariq_01](pgs_ss20_tutorial_04_tariq_01.gif)  
+by Zainab  
 
-![uveg1](uveg1.png)  
-by Rita
+![pgs_ss20_tutorial_04_01](pgs_ss20_tutorial_04_01.gif)  
+by Jack  
 
-![pgs_ss20_tutorial_02_eschenbacher_01](pgs_ss20_tutorial_02_eschenbacher_01.png)  
-by Anna
-
-![02](02.png)  
-by Jack
+![pgs_ss20_tutorial_04_nurmukhametova](pgs_ss20_tutorial_04_nurmukhametova.png)  
+by Ellina  
 
