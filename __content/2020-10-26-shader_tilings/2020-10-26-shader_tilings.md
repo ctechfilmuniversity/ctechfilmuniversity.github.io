@@ -1,7 +1,7 @@
 ---
 # Please replace every occurrence of "xxxx" in this header area with your personal information.
 layout: post
-title: "Houdini Islamic Pattern Fragment Shader"
+title: "Islamic Pattern Fragment Shader"
 author: "Lena Gieseke"
 categories: Projects
 tags: PGS SS20 fragment_shader
