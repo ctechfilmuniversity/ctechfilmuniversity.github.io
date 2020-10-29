@@ -4,7 +4,7 @@ layout: post
 title: "Houdini Islamic Pattern Fragment Shader"
 author: "Lena Gieseke"
 categories: Projects
-tags: pgs SS20 fragment_shader
+tags: PGS SS20 fragment_shader
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: /assets/img/projects/2020-10-26-shader_tilings/pattern-tile2.png # choose your desired image file format — must be supported by web browsers — only one

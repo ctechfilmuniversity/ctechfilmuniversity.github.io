@@ -4,7 +4,7 @@ layout: post
 title: "A Simple Dynamics System"
 author: "Lena Gieseke"
 categories: Projects
-tags: pgs SS20 houdini dynamics
+tags: PGS SS20 Houdini dynamics
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: /assets/img/projects/2020-10-26-houdini_dynamics/pgs_ss20_tutorial_05_lai.png # choose your desired image file format — must be supported by web browsers — only one

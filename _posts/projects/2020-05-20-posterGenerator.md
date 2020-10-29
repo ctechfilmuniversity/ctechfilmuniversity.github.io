@@ -3,7 +3,7 @@ layout: post
 title: "Poster Generator"
 author: "Zainab Tariq, Anna Eschenbacher"
 categories: Projects
-tags:  CC1 WS1920 FinalProject
+tags:  CC1 WS1920 p5js
 
 cover-image: /assets/img/projects/2020-05-20-posterGenerator/generator.png 
 cover-image-title: posterGenerator
