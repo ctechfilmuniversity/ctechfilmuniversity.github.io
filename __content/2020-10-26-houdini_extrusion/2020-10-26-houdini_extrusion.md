@@ -4,7 +4,7 @@ layout: post
 title: "Houdini Extrusions"
 author: "Lena Gieseke"
 categories: Projects
-tags: pgs houdini SS20 extrusions
+tags: PGS Houdini SS20 extrusions
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: pgs_ss20_tutorial_01_nurmukhametova.png # choose your desired image file format — must be supported by web browsers — only one

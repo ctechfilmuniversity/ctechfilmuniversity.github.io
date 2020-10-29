@@ -3,7 +3,7 @@ layout: post
 title: "Virtual Pet Bird"
 author: "Denise Bischof"
 categories: Projects
-tags: CC1 WS1920 FinalProject
+tags: CC1 WS1920
 
 cover-image: VPB_Example.png
 cover-image-title: Pet Bird Tiny Walk

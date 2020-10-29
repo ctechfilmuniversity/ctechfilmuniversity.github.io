@@ -4,7 +4,7 @@ layout: post
 title: "Houdini Dynamics"
 author: "Lena Gieseke"
 categories: Projects
-tags: pgs houdini SS20 particles
+tags: PGS Houdini SS20 particles
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: pgs_ss20_tutorial_06_eschenbacher_02.png # choose your desired image file format — must be supported by web browsers — only one
