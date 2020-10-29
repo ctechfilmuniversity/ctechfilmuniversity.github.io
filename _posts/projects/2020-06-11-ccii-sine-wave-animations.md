@@ -4,7 +4,7 @@ layout: post
 title: "Animated Sine Waves"
 author: "Anna Eschenbacher, Casin Kuyukoey, Ellina Nurmukhametova, Zainab Tariq"
 categories: Projects
-tags: C++ CCII Sine-Wave Sine-Wave-Animation openFrameworks
+tags: C++ CC2 Sine-Wave Sine-Wave-Animation openFrameworks
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: /assets/img/projects/2020-06-11-ccii-sine-wave-animations/sine02_loop_eschenbacher.gif # choose your desired image file format — must be supported by web browsers — only one

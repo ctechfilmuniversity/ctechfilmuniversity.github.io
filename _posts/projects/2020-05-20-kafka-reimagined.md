@@ -3,7 +3,7 @@ layout: post
 title: "Kafka Reimagined"
 author: "Jacky Lai"
 categories: Projects
-tags: CC1 WS1920 FinalProject 
+tags: CC1 WS1920 
 
 cover-image: /assets/img/projects/2020-05-20-kafka-reimagined/kafkaReimagined_pic_01.png
 cover-image-title: Project Kafka Reimagined
