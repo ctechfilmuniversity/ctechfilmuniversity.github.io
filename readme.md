@@ -1,11 +1,13 @@
 # CTech Projects
+Hi. This repo is a blog to share projects from CTechis for CTechis. You can visit the website here: [https://ctechfilmuniversity.github.io/](https://ctechfilmuniversity.github.io/)
 
+# How to create content
+Have a look at the instructions in the [readme.md](__content/readme.md) in the "__content" folder.
+
+# About
 Hi. This repo is a Jekyll-Blog-System to share projects from CTechis for CTechis. 
 
 > The project forked and has been modified from [Millennial](https://github.com/LeNPaul/Millennial). Please find some more information about Millenial in the info directory. 
-
-## How to create posts
-Have a look at the instructions in the [readme.md](__content/readme.md) in the "__content" folder.
 
 ## Structure 
 ```
