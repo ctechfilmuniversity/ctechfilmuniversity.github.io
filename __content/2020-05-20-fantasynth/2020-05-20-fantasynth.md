@@ -4,7 +4,7 @@ layout: post
 title: "Fantasynth"
 author: "Valeria Barvinska"
 categories: Projects
-tags: Unity Storytelling GenerativeArt # please add suitable tags — separated by a space — the number of tags is not limited
+tags: WS1819 OrientationProject Unity Storytelling GenerativeArt # please add suitable tags — separated by a space — the number of tags is not limited
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: Fantasynth1.png # choose your desired image file format — must be supported by web browsers — only one

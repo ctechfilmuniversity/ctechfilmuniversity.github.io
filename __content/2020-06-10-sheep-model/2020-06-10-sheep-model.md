@@ -4,7 +4,7 @@ layout: post
 title: "Sheep Model"
 author: "Franziska Pätzold"
 categories: Projects
-tags: PGS Houdini Rigging Modeling # please add suitable tags — separated by a space — the number of tags is not limited
+tags: SS19 PGS Houdini Rigging Modeling # please add suitable tags — separated by a space — the number of tags is not limited
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: sheep_full.gif # choose your desired image file format — must be supported by web browsers — only one
