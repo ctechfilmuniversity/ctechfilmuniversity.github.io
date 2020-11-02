@@ -26,7 +26,7 @@ cover-image-title: xxxx # a descriptive title for the image
 ```
 
 ### 1.1 Filling in the meta information
-As stated in the comments in the header section, please replace all occurances of "xxxx" with your information on the project. Please add as many tags, as you like. You can look for tags on the [website](https://ctechfilmuniversity.github.io/).
+As stated in the comments in the header section, please replace all occurances of "xxxx" with your information on the project. Please add as many tags, as you like. You can look for tags on the [website](https://ctechfilmuniversity.github.io/). Please be sure to include the current semester in an abbreviated form like the following examples: `WS1920`, `SS20`, `WS2021`. Furthermore include an abbreviated form of the subject you created the project for, e.g.: `PGS`, `CC1`, `CC2`, `TBAG`, `TI`, `OrientationProject`.
 
 ### 1.2 Writing the actual content
 Please keep the given headings for your post, since it will give all posts a more coherent structure. But you are free to add additional sub headings, if you want to. 
