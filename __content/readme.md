@@ -92,6 +92,42 @@ Time was the most limiting factor...
 
 ## 2 Create the post on the website
 ### 2.1 Checkout the repository and create a branch
+Open the terminal app or the equivalent on your operating system and change the directory to the folder, where you want to download the contents of this repository to.
+
+__Linux / Mac:
+```
+// absolute path
+cd /path/to/the/folder
+
+// relative path to the current path in your terminal
+cd relative/path/to/the/folder
+
+// absolute example on MacOs
+cd /Users/max/Coding/Ctech
+
+// relative example on MacOs (normally the terminal starts out in your users directory)
+cd Coding/Ctech
+```
+
+__Windows__:
+```
+// you might need to switch first to a different disk, if so you can do so by just writing the the drive letter, like the following example with the drive letter "C".
+C:
+
+// absolute path
+cd C:\path\to\the\folder
+
+// relative path
+cd relative\path\to\the\folder
+
+// absolute example
+cd C:\Users\max\Coding\Ctech
+
+// relative example (normally the command prompt starts out in your users directory)
+cd Coding\Ctech
+```
+If you have difficulties using `cd`, just do a quick research online, there are plenty resources regarding how to use it on your operating system.
+
 Checkout the following repository:
 ```
 https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io.git
