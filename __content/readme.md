@@ -1,8 +1,6 @@
 # How to create a new post
 ## 1 Write post
-In order to write your post, use the MarkDown template, provided [here](template_post.md). Name the file after your project title, e.g. "example-project.md".
-
-You can also copy the template from below:
+In order to write your post, use the following MarkDown template. Name the file after your project title, e.g. "example-project.md".
 
 ```
 ---
