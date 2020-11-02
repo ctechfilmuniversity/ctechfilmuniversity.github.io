@@ -94,7 +94,7 @@ Time was the most limiting factor...
 ### 2.1 Checkout the repository and create a branch
 Open the terminal app or the equivalent on your operating system and change the directory to the folder, where you want to download the contents of this repository to.
 
-__Linux / Mac:
+__Linux / MacOs__:
 ```
 // absolute path
 cd /path/to/the/folder
@@ -111,7 +111,9 @@ cd Coding/Ctech
 
 __Windows__:
 ```
-// you might need to switch first to a different disk, if so you can do so by just writing the the drive letter, like the following example with the drive letter "C".
+// you might need to switch first to a different disk, 
+// if so you can do so by just writing the the drive letter, 
+// like the following example with the drive letter "C".
 C:
 
 // absolute path
