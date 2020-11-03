@@ -137,38 +137,70 @@ git clone https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io.g
 
 Create a local branch, you can name it after your project:
 ```
-git branch yourAwesomeProject
+git branch yourAwesomeProjectBranch
 ```
 
 Checkout your branch:
 ```
-git checkout yourAwesomeProject
+git checkout yourAwesomeProjectBranch
 ```
 
 ### 2.2 Commit and push the post files
-Copy your files to the folder "__content/new-post/". All files should be in the same folder level, do not create sub directories. Commit and push the files. Your files should contain:
+Copy your files to the folder "__content/new-post/". All files should be in the same folder level, do not create sub directories.Your files should contain:
 * One Markdown file with the textual content, based on the provided template
 * Image files
 
-### 2.3 Create a pull request
-Visit the following URL with a webbrowser: https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io/compare
+Add your newly added files to git index:
+```
+git add --all
+```
 
-Click on "New pull request". Select for base "master" and for compare your branch. Click on "Create pull request". Select a Reviewer, for example Phil Clausen or Markus Traber. Click on "Create Pull Request". Wait for the reviewer to merge your branch into master.
+Commit and append a message, that is a reference to your project:
+```
+git commit -m "Adding my project SuperAwesomeProject"
+```
+
+Push the changes and your Branch to the remote Repository (GitHub):
+```
+git push --set-upstream origin yourAwesomeProjectBranch
+```
+
+### 2.3 Create a pull request
+Replace the last part of the URL with your branch name and open the URL with a web browser: https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io/pull/new/yourAwesomeProjectBranch
+
+Click on "Create pull request". 
+
+Wait for a reviewer to merge your branch into master. If you want to accellerate the process, write a mail to Phil Clausen or Markus Traber.
 
 ### 2.3 Post published
-After the branch has been merged, Github will automatically process the post. Wait for a new commit by "GitHub Action" titled "Automated content creation push" to be pushed to the repository. This should normally take place within a minute, maybe a little more.
+After the branch has been merged, Github will automatically process the post. Wait for a new commit by "philclausen" titled "Automated content creation push" to be pushed to the repository. This should normally take place within a minute, maybe a little more.
 
-After some more minutes, the post should also be published on the live website.
+After some more minutes, the post should also be published on the website.
 
 ## 3 Modifying existing posts
-Please keep in mind, that you always have to pull in order to get newest repository state. You also have to always create a branch and follow the previously mentioned steps of creating a pull request and merging the content. 
+The whole process of changing posts is basically the same as the steps explained in point 2. You create a local branch, make changes, commit and push the changes to the remote repository and create a pull request.
 
-### 3.1 Editing posts
+## 3.1 Updating the local repository
+You should always pull the newest changes to this repository, before editing stuff.
+
+Check that you are on the `master` branch:
+```
+git checkout master
+```
+
+Pull the lastest changes:
+```
+git pull
+```
+
+Create a branch, like mentioned in step 2.1.
+
+### 3.2 Editing posts
 In the folder "__content" all posts are kept in separate folders, beginning with the publishing date, followed by its project name, e.g. "2020-03-23-example-project".
 
-Files within that folder can be edited, commited and pushed. Github will automatically publish the changes after a few minutes, when your pull request has been approved and merged. 
+Make changes to these files in order to change already public posts.
 
-### 3.2 Deleting posts
+### 3.3 Deleting posts
 In order to delete a post, files in three different folders have to be deleted:
 * The complete folder in "__content/", e.g. "2020-03-23-example-project"
 * The MarkDown file of the project in "_posts/projects/", e.g. "2020-03-23-example-project.md"
