@@ -43,7 +43,7 @@ You can embed videos from Youtube or Vimeo. Just use the code fragments below an
 
 **Youtube:**
 
-You can find the video id in the url after "watch?v=". In the following url example, the id is highlighted: [https://www.youtube.com/watch?v=**YRt1j9MHTZU**](https://www.youtube.com/watch?v=YRt1j9MHTZU) 
+You can find the video id in the url after `watch?v=`. In the following url example, the id is highlighted: [https://www.youtube.com/watch?v=**YRt1j9MHTZU**](https://www.youtube.com/watch?v=YRt1j9MHTZU) 
 ```
 {% include youtube.html id="" %}
 ```
@@ -158,7 +158,7 @@ git add --all
 
 Commit and append a message, that is a reference to your project:
 ```
-git commit -m "Adding my project SuperAwesomeProject"
+git commit -a -m "Adding my project SuperAwesomeProject"
 ```
 
 Push the changes and your Branch to the remote Repository (GitHub):
@@ -179,7 +179,8 @@ After the branch has been merged, Github will automatically process the post. Wa
 After some more minutes, the post should also be published on the website.
 
 ## 3 Modifying existing posts
-The whole process of changing posts is basically the same as the steps explained in point 2. You create a local branch, make changes, commit and push the changes to the remote repository and create a pull request.
+The whole process of changing posts is basically the same as the steps explained in section 2. You create a local branch, make changes, commit and push the changes to the remote repository and create a pull request. Please try to keep your local repo always up-to-date, like described in 3.1.
+
 
 ## 3.1 Updating the local repository
 You should always pull the newest changes to this repository, before editing stuff.
