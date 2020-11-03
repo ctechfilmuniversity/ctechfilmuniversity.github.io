@@ -1,8 +1,8 @@
 # CTech Projects
 Hi. This repo is a blog to share projects from CTechis for CTechis. You can visit the website here: [https://ctechfilmuniversity.github.io/](https://ctechfilmuniversity.github.io/)
 
-# How to create content
-Have a look at the instructions in the [readme.md](__content/readme.md) in the "__content" folder.
+# How to create a new post
+In order to create a new post or entry on the github io pages site, please have a look at this [readme.md](__content/readme.md).
 
 # About
 Hi. This repo is a Jekyll-Blog-System to share projects from CTechis for CTechis. 
