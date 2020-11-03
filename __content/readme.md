@@ -1,6 +1,6 @@
 # How to create a new post
 ## 1 Write post
-In order to write your post, use the following MarkDown template. Name the file after your project title, e.g. "example-project.md".
+In order to write your post, use the following MarkDown template. Name the file after your project title, e.g. `example-project.md`.
 
 ```
 ---
@@ -26,7 +26,7 @@ cover-image-title: xxxx # a descriptive title for the image
 ```
 
 ### 1.1 Filling in the meta information
-As stated in the comments in the header section, please replace all occurances of "xxxx" with your information on the project. Please add as many tags, as you like. You can look for tags on the [website](https://ctechfilmuniversity.github.io/). Please be sure to include the current semester in an abbreviated form like the following examples: `WS1920`, `SS20`, `WS2021`. Furthermore include an abbreviated form of the subject you created the project for, e.g.: `PGS`, `CC1`, `CC2`, `TBAG`, `TI`, `OrientationProject`.
+As stated in the comments in the header section, please replace all occurances of `xxxx` with your information on the project. Please add as many tags, as you like. You can look for tags on the [website](https://ctechfilmuniversity.github.io/). Please be sure to include the current semester in an abbreviated form like the following examples: `WS1920`, `SS20`, `WS2021`. Furthermore include an abbreviated form of the subject you created the project for, e.g.: `PGS`, `CC1`, `CC2`, `TBAG`, `TI`, `OrientationProject`.
 
 ### 1.2 Writing the actual content
 Please keep the given headings for your post, since it will give all posts a more coherent structure. But you are free to add additional sub headings, if you want to. 
@@ -39,7 +39,7 @@ Images can be added according to MarkDown syntax, but you have to keep the image
 
 
 ### 1.2.2 Videos
-You can embed videos from Youtube or Vimeo. Just use the code fragments below and fill in the video id between the two quotation marks behind "id". Please keep in mind, that you have to use the video id, not the url. You can find more information on that in the following descriptions for YouTube and Vimeo.
+You can embed videos from Youtube or Vimeo. Just use the code fragments below and fill in the video id between the two quotation marks behind `id`. Please keep in mind, that you have to use the video id, not the url. You can find more information on that in the following descriptions for YouTube and Vimeo.
 
 **Youtube:**
 
@@ -57,7 +57,7 @@ You can find the video id in the url after the last slash. In the following url 
 
 
 ### 1.3 Example
-You can always have a look, at preexisting posts, that can be found in this folder ("__content"). Every post has its own folder, beginning with the date.
+You can always have a look, at preexisting posts, that can be found in the folder `__content`. Every post has its own folder, beginning with the date.
 
 Furthermore here is a made up example:
 ```
@@ -146,8 +146,8 @@ git checkout yourAwesomeProjectBranch
 ```
 
 ### 2.2 Commit and push the post files
-Copy your files to the folder "__content/new-post/". All files should be in the same folder level, do not create sub directories. The folder should contain:
-* One readme.md, which has already been, there and should not be touched
+Copy your files to the folder `__content/new-post/`. All files should be in the same folder level, do not create sub directories. The folder should contain:
+* One `readme.md`, which has already been, there and should not be touched!
 * One Markdown file with the textual content, based on the provided template
 * Image files
 
@@ -169,7 +169,7 @@ git push --set-upstream origin yourAwesomeProjectBranch
 ### 2.3 Create a pull request
 Replace the last part of the URL with your branch name and open the URL with a web browser: https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io/pull/new/yourAwesomeProjectBranch
 
-Click on "Create pull request". 
+Click on `Create pull request`. 
 
 Wait for a reviewer to merge your branch into master. If you want to accellerate the process, write a mail to Phil Clausen or Markus Traber.
 
@@ -203,6 +203,6 @@ Make changes to these files in order to change already public posts.
 
 ### 3.3 Deleting posts
 In order to delete a post, files in three different folders have to be deleted:
-* The complete folder in "__content/", e.g. "2020-03-23-example-project"
-* The MarkDown file of the project in "_posts/projects/", e.g. "2020-03-23-example-project.md"
-* The complete assets folder of the project in "assets/img/projects/", e.g. "2020-03-23-example-project"
+* The complete folder in `__content/`, e.g. `2020-03-23-example-project`
+* The MarkDown file of the project in `_posts/projects/`, e.g. `2020-03-23-example-project.md`
+* The complete assets folder of the project in `assets/img/projects/`, e.g. `2020-03-23-example-project`
