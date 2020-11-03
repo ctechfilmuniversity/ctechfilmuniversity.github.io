@@ -146,7 +146,8 @@ git checkout yourAwesomeProjectBranch
 ```
 
 ### 2.2 Commit and push the post files
-Copy your files to the folder "__content/new-post/". All files should be in the same folder level, do not create sub directories.Your files should contain:
+Copy your files to the folder "__content/new-post/". All files should be in the same folder level, do not create sub directories. The folder should contain:
+* One readme.md, which has already been, there and should not be touched
 * One Markdown file with the textual content, based on the provided template
 * Image files
 
