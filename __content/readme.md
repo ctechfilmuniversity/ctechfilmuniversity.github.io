@@ -204,6 +204,6 @@ Make changes to these files in order to change already public posts.
 
 ### 3.3 Deleting posts
 In order to delete a post, files in three different folders have to be deleted:
-* The complete folder in `__content/`, e.g. `2020-03-23-example-project`
+* The complete project post folder inside `__content/`, e.g. `2020-03-23-example-project`
 * The MarkDown file of the project in `_posts/projects/`, e.g. `2020-03-23-example-project.md`
-* The complete assets folder of the project in `assets/img/projects/`, e.g. `2020-03-23-example-project`
+* The complete assets folder of the project inside `assets/img/projects/`, e.g. `2020-03-23-example-project`
