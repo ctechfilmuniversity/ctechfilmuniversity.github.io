@@ -4,7 +4,7 @@ layout: post
 title: "Audio Driven Visualization in Houdini"
 author: "Lena Gieseke"
 categories: Projects
-tags: PGS Houdini SS20 audio 
+tags: PGS Houdini SS20 Audio 
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: /assets/img/projects/2020-10-26-houdini_audio/pgs_ss20_tutorial_09_tariq_02.png # choose your desired image file format — must be supported by web browsers — only one

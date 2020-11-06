@@ -4,7 +4,7 @@ layout: post
 title: "Houdini Using Noise"
 author: "Lena Gieseke"
 categories: Projects
-tags: PGS Houdini SS20 noise
+tags: PGS Houdini SS20 Noise
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: /assets/img/projects/2020-10-26-houdini_noise/pgs_ss20_tutorial_04_tariq01.png # choose your desired image file format — must be supported by web browsers — only one
