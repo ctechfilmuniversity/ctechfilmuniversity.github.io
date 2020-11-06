@@ -19,7 +19,7 @@
     if (searchTerm) {
         document.getElementById('search-box').setAttribute("value", searchTerm);
 
-        console.log(ctech_searchindex);
+        //console.log(ctech_searchindex);
 
         // Initalize lunr with the fields it will be searching on. I've given title
         // a boost of 10 to indicate matches on this field are more important.
@@ -46,7 +46,7 @@
     function displaySearchResults(results, store) {
         var searchResults = document.getElementById('search-results');
 
-        console.log(results);
+        //console.log(results);
     
         if (results.length) { // Are there any results?
             var appendString = '';

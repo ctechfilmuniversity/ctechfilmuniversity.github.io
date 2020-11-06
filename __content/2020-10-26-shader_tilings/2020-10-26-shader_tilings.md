@@ -4,7 +4,7 @@ layout: post
 title: "Islamic Pattern Fragment Shader"
 author: "Lena Gieseke"
 categories: Projects
-tags: PGS SS20 fragment_shader
+tags: PGS SS20 FragmentShader
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: pattern-tile2.png # choose your desired image file format — must be supported by web browsers — only one

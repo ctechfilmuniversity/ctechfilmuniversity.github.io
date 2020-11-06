@@ -4,7 +4,7 @@ layout: post
 title: "Houdini Math Beauty"
 author: "Lena Gieseke"
 categories: Projects
-tags: PGS Houdini SS20 maths
+tags: PGS Houdini SS20 Maths
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: uveg1.png # choose your desired image file format — must be supported by web browsers — only one

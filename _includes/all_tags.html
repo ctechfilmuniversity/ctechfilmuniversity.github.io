@@ -1,15 +1,22 @@
 <div class="tags">
     <h2>Browse by Tag</h2>
-    {% capture temptags %}
-        {% for tag in site.tags %}
-            {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
-        {% endfor %}
-    {% endcapture %}
 
-    {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
-    {% for temptag in sortedtemptags %}
-        {% assign tagitems = temptag | split: '#' %}
-        {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-        <a href="/pages/search.html?query=tag%3A{{ tagname }}" class="tag"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
+    {% comment %} Sort case insensitive {% endcomment %}
+    {% assign tags = "" | split:"" %}
+    {% for t in site.tags %}
+        {% assign tags = tags | push: t[0] %}
     {% endfor %}
+
+    {% assign sorted_tags = tags | sort_natural %}
+
+    {% for t in sorted_tags %}  
+        <a href="/pages/search.html?query=tag%3A{{ t }}" class="tag"><code class="highligher-rouge"><nobr>{{ t }}</nobr></code></a>
+
+        {%- comment -%} Show pages per tag {%- endcomment -%}
+        {%- comment -%}
+        <a href="/pages/search.html?query=tag%3A{{ t }}" class="tag"><code class="highligher-rouge"><nobr>{{ t }} <span>({{ site.tags[t].size }})</span></nobr></code></a>
+        {%- endcomment -%}
+    {% endfor %}
+
+
 </div>
