@@ -1,6 +1,6 @@
 # How to create a new post
 ## 1 Write post
-In order to write your post, use the following MarkDown template. Name the file after your project title, e.g. `example-project.md`.
+In order to write your post, you have to create a Markdown file with a specific structure. Name the file after your project title, e.g. `example-project.md`. Copy the following contents to your markdown file:
 
 ```
 ---
@@ -9,7 +9,19 @@ layout: post
 title: "xxxx"
 author: "xxxx"
 categories: Projects
-tags: xxxx xxxx xxxx # please add suitable tags — separated by a space - Example tags: CC1 CC2 TBAG TI OrientationProject WS1920 SS20 WS2021 SS21
+tags: xxxx xxxx xxxx 
+
+# Please add suitable tags, separated by a space. If you decide to add new 
+# tags, consider the naming conventions, mentioned in the How-To in section 
+# "1.1.1 Tags".
+# You can choose from already existing tags, listed in the following comments:
+
+# AbletonLive AI AliveExhibition Audio C++ CC1 CC2 ChristmasCard Dynamics 
+# Extrusions FragmentShader GenerativeArt Houdini Installation Instrument 
+# Interactive Maths Midi Modeling MovieAnalysis Noise openFrameworks 
+# OrientationProject p5js Particles ParticleSimulation PGS PhotoBooth 
+# PhysicalComputing Rigging SineWave SineWaveAnimation SS19 SS20 Storytelling 
+# TouchDesigner Ultrasonic Unity WS1819 WS1920
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
 cover-image: xxxx.jpg # choose your desired image file format — must be supported by web browsers — only one
@@ -26,7 +38,17 @@ cover-image-title: xxxx # a descriptive title for the image
 ```
 
 ### 1.1 Filling in the meta information
-As stated in the comments in the header section, please replace all occurances of `xxxx` with your information on the project. Please add as many tags, as you like. You can look for tags on the [website](https://ctechfilmuniversity.github.io/). Please be sure to include the current semester in an abbreviated form like the following examples: `WS1920`, `SS20`, `WS2021`. Furthermore include an abbreviated form of the subject you created the project for, e.g.: `PGS`, `CC1`, `CC2`, `TBAG`, `TI`, `OrientationProject`.
+As stated in the comments in the header section, please replace all occurances of `xxxx` with your information on the project. 
+
+#### 1.1.1 Tags
+Please add as many tags, as you like. All currently used tags are included within the template and can also be seen on the [website](https://ctechfilmuniversity.github.io/). Please be sure to include the current semester in an abbreviated form like the following examples: `WS1920`, `SS20`, `WS2021`. Furthermore include an abbreviated form of the subject you created the project for, e.g.: `PGS`, `CC1`, `CC2`, `TBAG`, `TI`, `OrientationProject`.
+
+__If you decide to add new tags, please consider the following naming convention:__
+ - We are roughly following the [CamelCase](https://en.wikipedia.org/wiki/Camel_case) convention. That means, we write multiple words, which should be perceived as one tag, without spaces or punctuation. The visual separation is achieved by writing the initial letter of each word in uppercase. For example `sine wave animation` becomes `SineWaveAnimation`.
+ - The initial letter of the overall tag is always written in uppercase. Only deviate, if the tag is a name of a famework, software, product etc., e.g. `openFrameworks`, `p5js`.
+ - Restrict yourself to just using letters and numbers. Please don't use characters like `-`, `_`, `+`, `*`, etc.. Also if the tag is a product name, you should follow this rule, for example `p5.js` becomes `p5js`.
+ 
+ __Furthermore, please add all new tags to the base template (section 1) in this readme as a comment, like all already existing tags.__
 
 ### 1.2 Writing the actual content
 Please keep the given headings for your post, since it will give all posts a more coherent structure. But you are free to add additional sub headings, if you want to. 
