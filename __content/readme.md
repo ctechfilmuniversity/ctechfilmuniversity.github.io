@@ -152,7 +152,7 @@ cd Coding\Ctech
 ```
 If you have difficulties using `cd`, just do a quick research online, there are plenty resources regarding how to use it on your operating system.
 
-Now checkout this repository:
+Now clone this repository:
 ```
 git clone https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io.git
 ```
