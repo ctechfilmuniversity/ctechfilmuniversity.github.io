@@ -48,7 +48,7 @@ __If you decide to add new tags, please consider the following naming convention
  - The initial letter of the overall tag is always written in uppercase. Only deviate, if the tag is a name of a famework, software, product etc., e.g. `openFrameworks`, `p5js`.
  - Restrict yourself to just using letters and numbers. Please don't use characters like `-`, `_`, `+`, `*`, etc.. Also if the tag is a product name, you should follow this rule, for example `p5.js` becomes `p5js`.
  
- __Furthermore, please add all new tags to the base template (section 1) in this readme as a comment, like all already existing tags.__
+ __Furthermore, please add all new tags to the base template (section 1) in this readme as a comment, like the already present tags.__
 
 ### 1.2 Writing the actual content
 Please keep the given headings for your post, since it will give all posts a more coherent structure. But you are free to add additional sub headings, if you want to. 
