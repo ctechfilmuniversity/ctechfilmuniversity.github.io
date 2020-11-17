@@ -20,7 +20,7 @@ The project explores the storytelling potential of Unity for artists and examine
 Fantasynth is a real-time installation that offers a gimps into the worlds where different perceptual traditions are defied, and the borders between 'fictional real' and 'fictional virtual' are compromised. 
 The project incorporates two means of storytelling – procedurally and using a conventional form of displaying video footage on the screen. Offering an open end to the viewer, the installation tells a short abstract story of an insect named Vincent, dwells on the philosophical ideas of rebirth and repetition and contemplates about escapism and fantasy as alternatives to reality.
 
-![Fantasynth](fantasynth3.png)
+![Fantasynth](Fantasynth3.png)
 
 ## Implementation
 
@@ -42,7 +42,7 @@ The project incorporates two means of storytelling – procedurally and using a 
 * Inspiration in philosophy, humanless worlds
 * Escapism and fantasy
 
-![Fantasynth](fantasynth2.png)
+![Fantasynth](Fantasynth2.png)
 
 ## Lessons learned
 
