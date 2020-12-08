@@ -157,6 +157,11 @@ Now clone this repository:
 git clone https://github.com/ctechfilmuniversity/ctechfilmuniversity.github.io.git
 ```
 
+Change dir into the newly created folder for the repo:
+```
+cd ctechfilmuniversity.github.io
+```
+
 Create a local branch, you can name it after your project:
 ```
 git branch yourAwesomeProjectBranch
