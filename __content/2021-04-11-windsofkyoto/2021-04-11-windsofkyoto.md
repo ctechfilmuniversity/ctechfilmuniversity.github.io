@@ -1,4 +1,4 @@
-# Project Submission for "Winds of Kyoto"
+---
 layout: post
 title: "Winds of Kyoto"
 author: "Sebastian Wilhelm"
