@@ -46,11 +46,11 @@ The project was developed with openframeworks and c++ using the IDE visual studi
 
 The first task was to create a mesh with noise, as it looks in the following figure:
 
-![](./img/perlin-noise-terrain.png)
+![](./perlin-noise-terrain.png)
 
 First I created a mesh with the mode `OF_PRIMITIVE_TRIANGLES`. In `set up()` I then set a width and length of the mesh and then created a vertex per the width and height values using two loops. After that I added indexes again by two loops and thus connected the vertices to triangles. After that the mesh looked like this:
 
-![](./img/mesh.png)
+![](./mesh.png)
 
 In `update()` I then added the perlin noise. For this I looped again through the values of width and height. In the loop I always stored the last position of the vertex in a Vector3. On the z-value I then applied `ofNoise()` and assigned the vertex a color based on the z-position. I also tied the y-value of the mesh to time so that the mesh appears to be moving.
 In `draw()` the mesh then only had to be mapped. Then the mesh looked like this: 
