@@ -19,8 +19,8 @@ tags: CC2 SS21 openFrameworks C++ Shader
 # TouchDesigner Ultrasonic Unity WS1819 WS1920
 
 # The cover image will be seen first. It will also be used to enlist your project amonst others.
-cover-image: xxxx.jpg # choose your desired image file format — must be supported by web browsers — only one
-cover-image-title: xxxx # a descriptive title for the image
+cover-image: ./finished.png # choose your desired image file format — must be supported by web browsers — only one
+cover-image-title: Roatrip - a audiovisualizer # a descriptive title for the image
 ---
 
 ## Abstract
