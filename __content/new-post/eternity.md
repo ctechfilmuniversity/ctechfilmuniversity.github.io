@@ -5,7 +5,7 @@ author: "Malte Hillebrand"
 categories: Projects
 tags: GenerativeArt openFrameworks
 
-cover-image: eternity_canvas.png
+cover-image: Eternity_Canvas.png
 cover-image-title: Eternity_Preview
 ---
 
