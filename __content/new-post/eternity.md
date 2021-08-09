@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Eternity"
 author: "Malte Hillebrand"
@@ -6,6 +7,7 @@ tags: GenerativeArt openFrameworks
 
 cover-image: eternity_canvas.png
 cover-image-title: Eternity_Preview
+---
 
 # Abstract
 
