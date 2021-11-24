@@ -1,0 +1,108 @@
+---
+layout: page
+title: Lectures
+---
+
+
+
+{% for post in site.tags.PhysicalComputing %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}physicalComputing">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>Physical Computing</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.CC1 %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}cc1">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>Creatice Coding I</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.CC2 %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}cc2">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>Creatice Coding II</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.PGS %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}pgs">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>PGS</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.TBAG %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}tbag">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>TBAG</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.OrientationProject %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}oProject">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>OrientationProject</span></h2>
+    </div>
+  </a>
+{% endfor %}

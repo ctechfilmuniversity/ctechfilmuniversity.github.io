@@ -1,14 +1,18 @@
 .footer {
+  position:relative;
   background: white;
   color: $brand-color;
   text-align: center;
   min-height: 56px;
   line-height: 45px;
   width: $container-width;
+  bottom:0;
+  padding-top: 15px;
+  
 }
 .footer a {
   color: $brand-color;
-  padding: 0px 10px 0px;
+  padding: 0px 2´10px 0px;
   text-decoration: none;
 }
 @media (max-width: $container-width) {

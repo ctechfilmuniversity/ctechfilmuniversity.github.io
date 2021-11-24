@@ -17,8 +17,7 @@ title: Projects
 </div>
 
 
-{%- comment -%} 
-<h2 class="recentprojects">Recent</h2>
+<h2 class="recentprojects">All Projects</h2>
 {% for post in site.categories.Projects %}
   <a href="{{ site.github.url }}{{ post.url }}">
     <div class="featured-posts" 
@@ -32,9 +31,8 @@ title: Projects
     </div>
   </a>
 {% endfor %} 
-{%- endcomment -%}
 
-
+{%- comment -%} 
 <h2 class="recentprojects">Recent</h2>
 {% for post in paginator.posts %}
 <a href="{{ site.github.url }}{{ post.url }}">
@@ -48,9 +46,10 @@ title: Projects
       <h2><span>{{ post.title }}</span></h2>
   </div>
 </a>
-
 {% endfor %}
+{%- endcomment -%}
 
+{%- comment -%} 
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.next_page %}
@@ -65,3 +64,4 @@ title: Projects
       <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
   {% endif %}
 </div>
+{%- endcomment -%}

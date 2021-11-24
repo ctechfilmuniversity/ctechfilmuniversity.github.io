@@ -7,9 +7,10 @@ disqus:
 google-ID: '' # 'UA-112060364-2'
 
 menu:
-#- {name: 'Lectures', folder: 'pages', file: 'lectures.html'}
-- {name: 'Projects', folder: 'projects', file: ''}
 - {name: 'Search', folder: 'pages', file: 'search.html', extraclasses: 'visible-menu-mobile'}
+- {name: 'All Projects', folder: 'projects', file: ''}
+- {name: 'Lectures', folder: 'Lectures', file: ''}
+- {name: 'Semesters', folder: 'Semesters', file: ''}
 #- {name: 'Theses', folder: 'pages', file: 'thesis.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

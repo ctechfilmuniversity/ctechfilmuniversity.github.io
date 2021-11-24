@@ -1,0 +1,112 @@
+---
+layout: page
+title: Semesters
+---
+
+{% for post in site.tags.SS21 %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}SS21">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>SS21</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.WS2021 %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}ws2021">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>WS20/21</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.WS1920 %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}ws1920">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>WS19/20</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.SS20 %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}SS20">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>SS20</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.SS19 %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}SS19">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>SS19</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+{% for post in site.tags.WS1819 %}
+  {% if forloop.index > 1 %}
+    {% break %}
+  {% endif %}
+  <a href="{{ site.github.url }}ws1819">
+    <div class="featured-posts" 
+      {% if post.cover-image %}
+        style="background-image:url({{ site.github.url }}{{ post.cover-image }})"
+      {% else  %}
+        style="background-image:url({{ site.github.url }} {{ site.header-image }})"
+      {% endif %}
+    >
+      <h2><span>WS18/19</span></h2>
+    </div>
+  </a>
+{% endfor %}
+
+
+
+
+
+
