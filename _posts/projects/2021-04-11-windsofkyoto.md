@@ -3,7 +3,7 @@ layout: post
 title: "Winds of Kyoto"
 author: "Sebastian Wilhelm"
 categories: Projects
-tags: TBAG WS2020/21 abstract asian edm reactive music-viz
+tags: TBAG WS2021 abstract asian edm reactive music-viz
 
 cover-image: /assets/img/projects/2021-04-11-windsofkyoto/preview.PNG
 cover-image-title: Winds of Kyoto
